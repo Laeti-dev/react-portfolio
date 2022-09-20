@@ -14,11 +14,11 @@ export default function Header() {
         </div>
 
         <div class="P-navbar__social">
-            <ul>
+            {/* <ul>
                 <li><a href="https://github.com/Laeti-dev" target="_blank"><i class="fa-brands fa-github"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/laetitiataddei/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-            </ul>
+            </ul> */}
         </div>
-          </nav>
+    </nav>
   );
 }
