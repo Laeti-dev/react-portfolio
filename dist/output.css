@@ -549,6 +549,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.hidden {
-  display: none;
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
 }
