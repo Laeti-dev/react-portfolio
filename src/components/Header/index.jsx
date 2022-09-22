@@ -10,10 +10,11 @@ export default function Header() {
       justify-items-center
       items-center
       bg-nav-bar h-10 text-background-color
-      static"
+      static
+      font-Inconsolata"
       >
         <div className="flex-none justify-self-start ml-3">
-          <Link to="/">Laeti-dev</Link>
+          <Link to="/" className="hover:text-active-color font-Madi text-3xl">Laeti-dev</Link>
         </div>
 
         <div className="space-x-4 col-span-3">
@@ -28,10 +29,10 @@ export default function Header() {
 
         <div className="space-x-4 justify-self-end mr-3">
             <a href="https://www.linkedin.com/in/laetitia-ikusawa/">
-                <FontAwesomeIcon icon="fa-brands fa-linkedin" size="2x" />
+                <FontAwesomeIcon icon="fa-brands fa-linkedin" size="2x" className="hover:text-active-color" />
             </a>
             <a href="https://github.com/Laeti-dev">
-                <FontAwesomeIcon icon="fa-brands fa-square-github" size="2x" />
+                <FontAwesomeIcon icon="fa-brands fa-square-github" size="2x" className="hover:text-active-color" />
             </a>
         </div>
     </nav>

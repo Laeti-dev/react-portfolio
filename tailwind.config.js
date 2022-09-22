@@ -10,7 +10,12 @@ module.exports = {
       "active-color": "#FF5656",
       "nav-font-color": "#FFFFFF"
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        Inconsolata: ["Inconsolata", "monospace"],
+        Madi: ["Ms Madi", "cursive"]
+      }
+    },
   },
   plugins: [],
 }
