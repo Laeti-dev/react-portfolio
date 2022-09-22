@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export default function Header() {
   return(
-    <nav id="navbar" className="flex flex-row">
-        <div >
+    <nav id="navbar" className="grid grid-cols-3 content-center bg-nav-bar h-10">
+        <div className="flex-none ">
           <Link to="/">Laeti-dev</Link>
         </div>
 
@@ -14,10 +15,8 @@ export default function Header() {
         </div>
 
         <div >
-            {/* <ul>
-                <li><a href="https://github.com/Laeti-dev" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/laetitiataddei/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-            </ul> */}
+            <FontAwesomeIcon icon="fa-brands fa-linkedin" size="2x" className="mx-3"/>
+            <FontAwesomeIcon icon="fa-brands fa-square-github" size="2x" />
         </div>
     </nav>
   );

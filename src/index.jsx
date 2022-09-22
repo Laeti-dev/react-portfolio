@@ -3,9 +3,10 @@ import {BrowserRouter,
         Routes,
         Route,
     } from "react-router-dom";
+import "./utils/Styles/main.css";
+import "./utils/fontawesome";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import "./utils/Styles/main.css";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Header from "./components/Header";
