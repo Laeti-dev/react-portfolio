@@ -8,6 +8,7 @@ module.exports = {
       "nav-bar": "#494953",
       "background-color": "#EDF2F6",
       "active-color": "#FF5656",
+      "nav-font-color": "#FFFFFF"
     },
     extend: {},
   },
