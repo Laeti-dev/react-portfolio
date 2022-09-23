@@ -1,23 +1,20 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  Nav,
+  NavLogo,
+  NavMenu,
+  NavSocial
+} from "./styled.tw.js"
 
 export default function Header() {
   return(
-    <nav id="navbar"
-      className="w-full
-      grid grid-cols-5 gap-4
-      justify-around
-      justify-items-center
-      items-center
-      bg-nav-bar h-10 text-background-color
-      static
-      font-Inconsolata"
-      >
-        <div className="flex-none justify-self-start ml-3">
+    <Nav >
+        <NavLogo>
           <Link to="/" className="hover:text-active-color font-Madi text-3xl">Laeti-dev</Link>
-        </div>
+        </NavLogo>
 
-        <div className="space-x-4 col-span-3">
+        <NavMenu>
             {[
               ["About", "/about"],
               ["Projects", "/projects"],
@@ -25,16 +22,16 @@ export default function Header() {
             ].map(([title, url]) => (
                 <Link to={url} className="hover:text-active-color">{title}</Link>
             ))}
-        </div>
+        </NavMenu>
 
-        <div className="space-x-4 justify-self-end mr-3">
+        <NavSocial>
             <a href="https://www.linkedin.com/in/laetitia-ikusawa/">
                 <FontAwesomeIcon icon="fa-brands fa-linkedin" size="2x" className="hover:text-active-color" />
             </a>
             <a href="https://github.com/Laeti-dev">
                 <FontAwesomeIcon icon="fa-brands fa-square-github" size="2x" className="hover:text-active-color" />
             </a>
-        </div>
-    </nav>
+        </NavSocial>
+    </Nav>
   );
 }
