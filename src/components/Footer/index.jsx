@@ -1,7 +1,9 @@
+import { FootPage } from "./styled.tw.js";
+
 export default function Footer() {
   return (
-    <div>
+    <FootPage>
       <p>© Laeti-dev 2022</p>
-    </div>
+    </FootPage>
   )
 }
