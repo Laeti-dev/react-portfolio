@@ -1,36 +1,41 @@
 import LeWagon from "../../utils/img/lewagon.png"
+import { HomeContainer,
+        Header1,
+        Header2,
+        Header3,
+        Devicons,
+        DeviconsList
+} from "./styled.tw";
 
 export default function Home() {
   return (
-    <div className="container m-auto px-4 bg-background-color">
-      <div className="text-center">
-        <h1>Laetitia Ikusawa</h1>
-        <h2>Full-stack developper</h2>
-        <p>Graduated from Le Wagon Tokyo</p>
-        <img src={LeWagon} alt="lewagon" className="w-28 h-28 rounded-2xl" />
-            <div class="devicons">
-              <h3>My stacks :</h3>
-              <div>
-                <i class="devicon-html5-plain-wordmark"></i>
-                <i class="devicon-css3-plain-wordmark"></i>
-                <i class="devicon-sass-original"></i>
-                <i class="devicon-javascript-plain"></i>
-                <i class="devicon-tailwindcss-plain colored"></i>
-                <i class="devicon-bootstrap-plain-wordmark"></i>
-                <i class="devicon-rails-plain-wordmark"></i>
-                <i class="devicon-github-original-wordmark"></i>
-                <i class="devicon-react-original-wordmark"></i>
-                <i class="devicon-git-plain-wordmark"></i>
-                <i class="devicon-github-original-wordmark"></i>
-                <i class="devicon-heroku-line-wordmark"></i>
-                <i class="devicon-postgresql-plain-wordmark"></i>
-                <i class="devicon-vscode-plain-wordmark"></i>
-                <i class="devicon-rspec-original-wordmark"></i>
-                <i class="devicon-jest-plain"></i>
-              </div>
-            </div>
-      </div>
-    </div>
+    <HomeContainer>
+        <Header1>Laetitia Ikusawa</Header1>
+        <Header2>Développeuse Fullstack</Header2>
+        <p className="mt-1">Certifiée par Le Wagon Tokyo</p>
+        <img src={LeWagon} alt="lewagon" className="w-28 h-28 rounded-2xl spacing" />
+            <Devicons>
+              <Header3>Mes techs :</Header3>
+              <DeviconsList>
+                <i className="devicon-html5-plain-wordmark m-auto"></i>
+                <i className="devicon-css3-plain-wordmark m-auto"></i>
+                <i className="devicon-sass-original m-auto"></i>
+                <i className="devicon-javascript-plain m-auto"></i>
+                <i className="devicon-tailwindcss-plain colored m-auto"></i>
+                <i className="devicon-bootstrap-plain-wordmark m-auto"></i>
+                <i className="devicon-rails-plain-wordmark m-auto"></i>
+                <i className="devicon-github-original-wordmark m-auto"></i>
+                <i className="devicon-react-original-wordmark m-auto"></i>
+                <i className="devicon-git-plain-wordmark m-auto"></i>
+                <i className="devicon-github-original-wordmark m-auto"></i>
+                <i className="devicon-heroku-line-wordmark m-auto"></i>
+                <i className="devicon-postgresql-plain-wordmark m-auto"></i>
+                <i className="devicon-vscode-plain-wordmark m-auto"></i>
+                <i className="devicon-rspec-original-wordmark m-auto"></i>
+                <i className="devicon-jest-plain m-auto"></i>
+              </DeviconsList>
+            </Devicons>
+    </HomeContainer>
   );
 
 }
