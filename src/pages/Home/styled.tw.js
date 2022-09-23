@@ -13,7 +13,7 @@ export const Header2 = styled.h2.attrs({
 })``;
 
 export const Header3 = styled.h3.attrs({
-  className: "text-2xl text-center mt-2 mb-8"
+  className: "text-2xl mt-2 mb-8"
 })``;
 
 export const Devicons = styled.section.attrs({
@@ -21,5 +21,5 @@ export const Devicons = styled.section.attrs({
 })``;
 
 export const DeviconsList = styled.i.attrs({
-  className: "text-4xl grid grid-cols-4 gap-2 justify-center items-center content-center"
+  className: "text-5xl grid grid-cols-4  justify-center items-center content-center"
 })``;
