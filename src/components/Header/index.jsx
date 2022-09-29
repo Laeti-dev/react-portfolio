@@ -17,6 +17,7 @@ export default function Header() {
         <NavMenu>
             {[
               ["About", "/about"],
+              ["Skills", "/skills"],
               ["Projects", "/projects"],
               ["Contact", "/contact"],
             ].map(([title, url]) => (
