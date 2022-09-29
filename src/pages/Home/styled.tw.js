@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const HomeContainer = styled.article.attrs({
-  className: "container h-70 py-8 flex flex-col items-center m-auto px-4 bg-background-color text-nav-bar-color font-Inconsolata rounded-lg"
+  className: "container pt-12 flex flex-col items-center m-auto px-4 bg-background-color text-nav-bar-color font-Inconsolata rounded-lg"
 })``;
 
 export const Header1 = styled.h1.attrs({
@@ -17,9 +17,17 @@ export const Header3 = styled.h3.attrs({
 })``;
 
 export const Devicons = styled.section.attrs({
-  className: "w-full m-auto"
+  className: "w-full text-center mt-8"
 })``;
 
 export const DeviconsList = styled.i.attrs({
-  className: "text-5xl grid grid-cols-4  justify-center items-center content-center"
+  className: "w-2/4 m-auto text-5xl grid grid-cols-5 justify-center items-center content-center"
+})``;
+
+export const ListParent = styled.div.attrs({
+  className: "relative"
+})``;
+
+export const HoverInfo = styled.p.attrs({
+  className: "text-base absolute top-2 left-1 bg-background-color h-8 w-full"
 })``;

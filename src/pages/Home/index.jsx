@@ -4,10 +4,21 @@ import { HomeContainer,
         Header2,
         Header3,
         Devicons,
-        DeviconsList
-} from "./styled.tw";
+        DeviconsList,
+        ListParent,
+        HoverInfo
+} from "./styled.tw"
+import { useState } from "react"
 
 export default function Home() {
+  const [isHovering, setIsHovering] = useState(false)
+
+  const handleMouseOver = () => {
+    setIsHovering(true);
+  };
+  const handleMouseOut = () => {
+    setIsHovering(false);
+  };
   return (
     <HomeContainer>
         <Header1>Laetitia Ikusawa</Header1>
@@ -29,14 +40,18 @@ export default function Home() {
                       ["devicon-react-original-wordmark", "react"],
                       ["devicon-git-plain-wordmark", "git"],
                       ["devicon-heroku-line-wordmark", "heroku"],
-                      ["devicon-postgresql-plain-wordmark"],
+                      ["devicon-postgresql-plain-wordmark", "Postgresql"],
                       ["devicon-vscode-plain-wordmark", "vscode"],
                       ["devicon-rspec-original-wordmark", "rspec"],
                       ["devicon-jest-plain", "jest"]
                   ].map(([devClass, text]) => (
-                <i className={devClass + " m-auto"}>
-                  <p className="invisible">{text}</p>
-                </i>
+                      <ListParent
+                          onMouseOver={handleMouseOver}
+                          onMouseOut={handleMouseOut}
+                      >
+                          <i className={devClass + " m-auto"}></i>
+                          {isHovering && <HoverInfo>{text}</HoverInfo>}
+                      </ListParent>
                 ))}
               </DeviconsList>
             </Devicons>
