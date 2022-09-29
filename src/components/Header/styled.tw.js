@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 
 export const Nav = styled.nav.attrs({
-  className: "w-full grid grid-cols-5 gap-4 justify-around justify-items-center items-center bg-nav-bar-color h-10 text-background-color fixed font-Inconsolata"
+  className: "w-full grid grid-cols-5 gap-4 justify-around justify-items-center items-center bg-nav-bar-color h-16 text-background-color fixed font-Inconsolata"
 })``;
 
 

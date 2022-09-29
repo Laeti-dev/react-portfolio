@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 
 const rootElement = document.getElementById('root');
   render(
-    <BrowserRouter>
+    <BrowserRouter className="absolute">
         <Header />
         <Routes>
             <Route path="/" element={<Home />} />

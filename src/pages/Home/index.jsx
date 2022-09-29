@@ -25,7 +25,7 @@ export default function Home() {
         <Header2>Développeuse Fullstack</Header2>
         <p className="mt-1">Certifiée par Le Wagon Tokyo</p>
         <img src={LeWagon} alt="lewagon" className="w-28 h-28 rounded-2xl spacing" />
-            <Devicons>
+            {/* <Devicons>
               <Header3>Mes techs :</Header3>
               <DeviconsList>
                   {[
@@ -54,7 +54,7 @@ export default function Home() {
                       </ListParent>
                 ))}
               </DeviconsList>
-            </Devicons>
+            </Devicons> */}
     </HomeContainer>
   );
 
