@@ -3,10 +3,12 @@ import { HomeContainer,
         Header1,
         Header2,
 } from "./styled.tw"
+import React, { useRef } from "react";
 
 export default function Home() {
+
   return (
-    <HomeContainer>
+    <HomeContainer ref={home}>
         <Header1>Laetitia Ikusawa</Header1>
         <Header2>Développeuse Fullstack</Header2>
         <p className="mt-1">Certifiée par Le Wagon Tokyo</p>

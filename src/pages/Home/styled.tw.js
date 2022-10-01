@@ -1,11 +1,11 @@
 import styled from "styled-components"
 
 export const HomeContainer = styled.article.attrs({
-  className: "container h-screen pt-12 flex flex-col items-center m-auto px-4 bg-background-color text-nav-bar-color font-Inconsolata rounded-lg"
+  className: "container h-screen pt-32 flex flex-col items-center m-auto px-4 bg-background-color text-nav-bar-color font-Inconsolata rounded-lg"
 })``;
 
 export const Header1 = styled.h1.attrs({
-  className: "text-5xl"
+  className: "text-5xl pt-27"
 })``;
 
 export const Header2 = styled.h2.attrs({
