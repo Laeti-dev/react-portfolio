@@ -3,7 +3,7 @@ import { HomeContainer,
         Header1,
         Header2,
 } from "./styled.tw"
-import React, { useRef } from "react";
+import React, { useRef, forwardRef } from "react";
 
 export default function Home() {
 
