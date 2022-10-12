@@ -1,5 +1,7 @@
 // import { useState } from 'react';
 
+import { GlobalStyle, Header1 } from "../../global/styled.tw";
+
 export default function Skill() {
   // const [isHovering, setIsHovering] = useState(false)
 
@@ -11,9 +13,9 @@ export default function Skill() {
   // };
 
   return(
-    <div>
-      <h1>Skills</h1>
-    </div>
+    <GlobalStyle>
+      <Header1>Skills</Header1>
+    </GlobalStyle>
   )
 
 }

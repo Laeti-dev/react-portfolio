@@ -1,7 +1,9 @@
+import { GlobalStyle, Header1 } from "../../global/styled.tw"
+
 export default function About(){
   return(
-    <div>
-      <h1>About</h1>
-    </div>
+    <GlobalStyle>
+      <Header1>About</Header1>
+    </GlobalStyle>
   )
 }

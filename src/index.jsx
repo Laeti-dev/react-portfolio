@@ -13,9 +13,10 @@ import Projects from "./pages/Projects";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
+
 const rootElement = document.getElementById('root');
   render(
-    <BrowserRouter className="absolute">
+    <BrowserRouter>
         <Header />
         <Routes>
             <Route path="/" element={<Home />} />
