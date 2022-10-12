@@ -5,5 +5,5 @@ export const GlobalStyle = styled.article.attrs({
 })``;
 
 export const Header1 = styled.h1.attrs({
-  className: "text-5xl"
+  className: "text-5xl mb-8"
 })``;
