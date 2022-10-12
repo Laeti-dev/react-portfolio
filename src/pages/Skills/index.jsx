@@ -24,7 +24,7 @@ export default function Skill() {
     <GlobalStyle>
       <Header1>Skills</Header1>
       <Underline></Underline>
-      <article className="flex flex-column flex-wrap">
+      <article className="grid grid-cols-8 gap-1 mx-auto">
         {logos.map((logo, index) =>
         <img src={logo} key={`${index}${logo}`} alt={logos[index]} /> )}
 
