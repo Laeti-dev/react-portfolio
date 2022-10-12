@@ -1,4 +1,4 @@
-import { GlobalStyle, Header1 } from "../../global/styled.tw"
+import { GlobalStyle, Header1, Underline } from "../../global/styled.tw"
 import Profile from "../../utils/img/profile.png"
 
 
@@ -6,6 +6,7 @@ export default function About(){
   return(
     <GlobalStyle>
       <Header1>About</Header1>
+      <Underline></Underline>
       <article className="flex justify-center gap-8 w-4/5">
         <p className="w-1/2 self-center text-justify">Hi ! I'm Laeti, freelancer
             graduated from LeWagon Tokyo in March 2022

@@ -5,5 +5,9 @@ export const GlobalStyle = styled.article.attrs({
 })``;
 
 export const Header1 = styled.h1.attrs({
-  className: "text-5xl mb-8"
+  className: "text-5xl"
+})``;
+
+export const Underline = styled.div.attrs({
+  className: "bg-nav-bar-color w-20 h-1 rounded-1 mx-auto mt-1 mb-12"
 })``;
