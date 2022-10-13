@@ -1,5 +1,5 @@
 import { GlobalStyle, Header1, Underline } from "../../global/styled.tw";
-import { Carousel } from "./carousel";
+import { Carousel } from "../../components/Carousel/carousel";
 
 export default function Projects() {
   return(
