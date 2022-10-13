@@ -1,24 +1,52 @@
 import { CarouselContainer, CarouselWrapper, CarouselContentWrapper, CarouselContent, ArrowButtons } from "./style.tw";
 import leftArrow from "../../utils/img/carousel/icons8-left-64.png"
 import rightArrow from "../../utils/img/carousel/icons8-right-64.png"
+import { useState, useEffect } from "react";
 
 export function Carousel(props) {
   const {children} = props
 
+  // define state for current item and total items
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const [length, setLength] = useState(children.length)
+
+  useEffect(() => {
+    setLength(children.length)
+  }, [children])
+
+  // function to handle controls buttons
+  const next = () => {
+    if (currentIndex < (length - 1)) {
+      setCurrentIndex(prevState => prevState + 1)
+    }
+  }
+
+  const prev = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(prevState => prevState - 1)
+    }
+  }
+
   return (
     <CarouselContainer>
         <CarouselWrapper>
-          <ArrowButtons>
-              <img src={leftArrow} alt="Left Arrow" className="left-6" />
-          </ArrowButtons>
+          {
+            currentIndex > 0 &&
+            <ArrowButtons onClick={prev}>
+                <img src={leftArrow} alt="Left Arrow" className="left-6" />
+            </ArrowButtons>
+          }
           <CarouselContentWrapper>
-            <CarouselContent>
+            <CarouselContent style={{transform: `translateX(-${currentIndex * 100}%)`}}>
               {children}
             </CarouselContent>
           </CarouselContentWrapper>
-          <ArrowButtons>
-              <img src={rightArrow} alt="Right Arrow"  />
-          </ArrowButtons>
+          {
+            currentIndex < (length - 1) &&
+            <ArrowButtons onClick={next}>
+                <img src={rightArrow} alt="Right Arrow"  />
+            </ArrowButtons>
+          }
         </CarouselWrapper>
       </CarouselContainer>
   )
