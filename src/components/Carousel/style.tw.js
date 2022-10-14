@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const CarouselContainer = styled.section.attrs({
-  className: " w-full flex flex-column"
+  className: " w-3/5 flex flex-column"
 })``;
 
 export const CarouselWrapper = styled.article.attrs({
