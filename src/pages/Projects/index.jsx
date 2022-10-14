@@ -1,6 +1,7 @@
 import { GlobalStyle, Header1, Underline } from "../../global/styled.tw";
 import { Carousel } from "../../components/Carousel/carousel";
-import CareAround from "./CareAround";
+import { ProjectData } from "./ProjectData";
+import { ProjectContainer, ProjectDescription } from "./styled.tw";
 
 export default function Projects() {
   return(
@@ -8,7 +9,7 @@ export default function Projects() {
       <Header1>Projects</Header1>
       <Underline></Underline>
       <Carousel>
-        <CareAround />
+
         {/* <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
         <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
         <img src="https://via.placeholder.com/1600x300" alt="placeholder" /> */}

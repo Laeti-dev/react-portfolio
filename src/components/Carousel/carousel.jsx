@@ -32,8 +32,8 @@ export function Carousel(props) {
         <CarouselWrapper>
           {
             currentIndex > 0 &&
-            <ArrowButtons onClick={prev}>
-                <img src={leftArrow} alt="Left Arrow" className="left-6" />
+            <ArrowButtons onClick={prev} className="left-14">
+                <img src={leftArrow} alt="Left Arrow" />
             </ArrowButtons>
           }
           <CarouselContentWrapper>
@@ -43,8 +43,8 @@ export function Carousel(props) {
           </CarouselContentWrapper>
           {
             currentIndex < (length - 1) &&
-            <ArrowButtons onClick={next}>
-                <img src={rightArrow} alt="Right Arrow"  />
+            <ArrowButtons onClick={next} className="right-14">
+                <img src={rightArrow} alt="Right Arrow" />
             </ArrowButtons>
           }
         </CarouselWrapper>

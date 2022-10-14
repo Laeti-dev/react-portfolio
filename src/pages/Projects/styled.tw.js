@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectContainer = styled.section.attrs({
-  className: "flex flex-row justify-center"
+  className: "flex flex-row w-full"
 })``;
 
 export const ProjectMedia = styled.article.attrs({
