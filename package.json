@@ -46,7 +46,10 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.19.3",
     "autoprefixer": "^10.4.12",
+    "eslint": "^8.25.0",
+    "eslint-config-react-app": "^7.0.1",
     "postcss-cli": "^10.0.0",
     "prettier": "^2.7.1"
   }

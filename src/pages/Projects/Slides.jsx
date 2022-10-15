@@ -1,15 +1,21 @@
-import { ProjectData } from "./ProjectData"
+import ProjectData from "./ProjectData";
+import { ProjectContainer, ProjectDescription } from "./styled.tw"
 
-export default function Slides() {
+export function Slides() {
   return(
-    {ProjectData.map((project, index) => {
-            <ProjectContainer key={`${index}-${project.title}`}>
-                <video src={project.media} />
-                <ProjectDescription>
-                  <p>{project.descriptionText}</p>
-                </ProjectDescription>
-            </ProjectContainer>
-            })
-    }
+    ProjectData.map((project, index) => {
+      return(
+              <ProjectContainer key={`${index}-${project.title}`}>
+                  <ProjectMedia>
+                      <video>
+                          <source src={project.mediaMp4} />
+                          <source src={project.mediaWebm} />
+                      </video>
+                  </ProjectMedia>
+                  <ProjectDescription>
+                      <p>{project.descriptionText}</p>
+                  </ProjectDescription>
+              </ProjectContainer>
+    )})
   )
 }
