@@ -11,6 +11,7 @@ export function Slides() {
                           <source src={project.mediaMp4} />
                           <source src={project.mediaWebm} />
                       </video>
+
                   </ProjectMedia>
                   <ProjectDescription>
                       <p>{project.descriptionText}</p>
