@@ -3,18 +3,16 @@ import { Carousel } from "../../components/Carousel/carousel";
 // import { Slides } from "./Slides"
 import ProjectData from "./ProjectData";
 import { ProjectContainer, ProjectDescription, ProjectMedia } from "./styled.tw"
-import { useState } from "react";
 
 export default function Projects() {
-  const [currentIndex, setCurrentIndex] = useState(0)
   return(
     <GlobalStyle>
       <Header1>Projects</Header1>
       <Underline></Underline>
-      <Carousel currentIndex={currentIndex} setCurrentIndex={setCurrentIndex}>
+      <Carousel>
         {ProjectData.map((project, index) => {
           return(
-              <ProjectContainer key={`${index}-${project.title}`} style={{transform: `translateX(-${currentIndex * 100}%)`}} >
+              <ProjectContainer key={`${index}-${project.title}`} >
                   <ProjectMedia>
                       <video>
                           <source src={project.mediaMp4} />
