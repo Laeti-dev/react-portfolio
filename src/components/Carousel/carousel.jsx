@@ -3,11 +3,10 @@ import leftArrow from "../../utils/img/carousel/icons8-left-64.png"
 import rightArrow from "../../utils/img/carousel/icons8-right-64.png"
 import { useState, useEffect } from "react";
 
-export function Carousel(props) {
+export function Carousel(props, { currentIndex, setCurrentIndex }) {
   const {children} = props
 
   // define state for current item and total items
-  const [currentIndex, setCurrentIndex] = useState(0)
   const [length, setLength] = useState(children.length)
 
   useEffect(() => {
@@ -37,9 +36,9 @@ export function Carousel(props) {
             </ArrowButtons>
           }
           <CarouselContentWrapper>
-            <CarouselContent style={{transform: `translateX(-${currentIndex * 100}%)`}}>
+            {/* <CarouselContent style={{transform: `translateX(-${currentIndex * 100}%)`}}> */}
               {children}
-            </CarouselContent>
+            {/* </CarouselContent> */}
           </CarouselContentWrapper>
           {
             currentIndex < (length - 1) &&

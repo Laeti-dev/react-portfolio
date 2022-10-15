@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectContainer = styled.section.attrs({
-  className: "flex flex-row w-fit"
+  className: "flex shrink-0 grow transition-all duration-200 ease-linear"
 })``;
 
 export const ProjectMedia = styled.article.attrs({
@@ -9,7 +9,7 @@ export const ProjectMedia = styled.article.attrs({
 })``;
 
 export const ProjectDescription = styled.article.attrs({
-  className: "flex flex-column"
+  className: "flex flex-column w-1/2"
 })``;
 
 export const DescriptionText = styled.div.attrs({
