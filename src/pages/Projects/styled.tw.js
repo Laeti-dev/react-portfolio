@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectContainer = styled.section.attrs({
-  className: "flex shrink-0 grow transition-all duration-200 ease-linear"
+  className: "flex "
 })``;
 
 export const ProjectMedia = styled.article.attrs({
