@@ -1,9 +1,7 @@
 import ProjectData from "./ProjectData";
-import { ProjectContainer, ProjectDescription } from "./styled.tw"
+import { ProjectContainer, ProjectDescription, ProjectMedia } from "./styled.tw"
 
-export function Slides() {
-  return(
-    ProjectData.map((project, index) => {
+const Items = ProjectData.map((project, index) => {
       return(
               <ProjectContainer key={`${index}-${project.title}`}>
                   <ProjectMedia>
@@ -18,5 +16,5 @@ export function Slides() {
                   </ProjectDescription>
               </ProjectContainer>
     )})
-  )
-}
+
+export default Items;
