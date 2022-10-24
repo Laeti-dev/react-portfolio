@@ -10,7 +10,7 @@ export default function Projects() {
       <Header1>Projects</Header1>
       <Underline></Underline>
       <Carousel>
-        {ProjectData.map((project, index) => {
+        {/* {ProjectData.map((project, index) => {
           return(
               <ProjectContainer key={`${index}-${project.title}`} >
                   <ProjectMedia>
@@ -23,10 +23,23 @@ export default function Projects() {
                       <p>{project.descriptionText}</p>
                   </ProjectDescription>
               </ProjectContainer>
-        )})}
-        {/* <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
-        <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
-        <img src="https://via.placeholder.com/1600x300" alt="placeholder" /> */}
+        )})} */}
+
+          <li><img src="https://via.placeholder.com/1600x300" alt="placeholder" /></li>
+          <li><img src="https://via.placeholder.com/1600x300" alt="placeholder" /></li>
+          <li><img src="https://via.placeholder.com/1600x300" alt="placeholder" /></li>
+
+
+                {/* <div style={{padding: 8}}>
+                    <img src="https://via.placeholder.com/1600x300" alt="placeholder" style={{width: '100%'}} />
+                </div>
+                <div style={{padding: 8}}>
+                    <img src="https://via.placeholder.com/1600x300" alt="placeholder" style={{width: '100%'}} />
+                </div>
+                <div style={{padding: 8}}>
+                    <img src="https://via.placeholder.com/1600x300" alt="placeholder" style={{width: '100%'}} />
+                </div> */}
+
       </Carousel>
     </GlobalStyle>
   );
