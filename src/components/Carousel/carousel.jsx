@@ -2,20 +2,18 @@ import { CarouselContainer, CarouselWrapper, CarouselContentWrapper, CarouselCon
 import leftArrow from "../../utils/img/carousel/icons8-left-64.png"
 import rightArrow from "../../utils/img/carousel/icons8-right-64.png"
 import { useState, useEffect } from "react";
-import ProjectData from "../../pages/Projects/ProjectData";
-import { ProjectContainer, ProjectDescription, ProjectMedia } from "../../pages/Projects/styled.tw"
 
 
-export function Carousel() {
-  // const {children} = props
+export function Carousel(props) {
+  const {children} = props
   const [currentIndex, setCurrentIndex] = useState(0)
 
   // define state for current item and total items
-  const [length, setLength] = useState(ProjectData.length)
+  const [length, setLength] = useState(children.length)
 
   useEffect(() => {
-    setLength(ProjectData.length)
-  }, [ProjectData])
+    setLength(children.length)
+  }, [children])
 
   // function to handle controls buttons
   const next = () => {
@@ -41,24 +39,7 @@ export function Carousel() {
             }
             <CarouselContentWrapper>
               <CarouselContent style={{transform: `translateX(-${currentIndex * 100}%)`}}>
-              {ProjectData.map((project, index) => {
-              return(
-                  <li className="flex justify-around items-center min-w-full" key={`${index}-${project.title}`}>
-                    <ProjectMedia>
-                      <video className="w-24">
-                          <source src={project.mediaMp4} />
-                          <source src={project.mediaWebm} />
-                      </video>
-                  </ProjectMedia>
-                  <ProjectDescription>
-                      <h2>{project.title}</h2>
-                      <p className="text-justify">{project.descriptionText}</p>
-                      <div className="flex">
-
-                      </div>
-                  </ProjectDescription>
-                  </li>
-        )})}
+              {children}
         </CarouselContent>
             </CarouselContentWrapper>
             {
