@@ -10,6 +10,7 @@ const ProjectData = [
     mediaMp4: CareAroundMp4,
     mediaWebm: CareAroundWebm,
     mediaJpeg: null,
+    width: '88px',
     title: "CareAround",
     descriptionText: "A mobile application using Optical Character Recognition (Google cloud OCR API) on beauty products and finding a match in a Japanese products database,built using scrapping with Kimurai gem allowing infinite scroll. Scrapped database translated from japanese to english through DEEPL API. Product présentation"
   },
@@ -17,6 +18,7 @@ const ProjectData = [
     mediaMp4: MasterJediMp4,
     mediaWebm: MasterJediWebm,
     mediaJpeg: null,
+    width: '344px',
     title: "Master Jedi",
     descriptionText: "A web application build on ruby on rails with an exagerated design and javascript effect."
   },
@@ -25,6 +27,7 @@ const ProjectData = [
     mediaMp4: IkusawaPortfolio,
     mediaWebm: null,
     mediaJpeg: null,
+    width: '344px',
     title: "Hairstylist Portfolio",
     descriptionText: "Responsive portfolio for freelance hairstylist. Built using javascript and scss."
   },
@@ -33,6 +36,7 @@ const ProjectData = [
     mediaMp4: null,
     mediaWebm: null,
     mediaJpeg: LongestWord,
+    width: '400px',
     title: "Longest word Game",
     descriptionText: "Simple rails app display random letters,the user has to build the longest word in english within the letters grid. The word is check through an API to verify its existence in english. Test system with Capybara"
   }

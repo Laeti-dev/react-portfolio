@@ -15,7 +15,7 @@ export default function Projects() {
                     <li className="flex justify-around items-center min-w-full" key={`${index}-${project.title}`}>
                       <ProjectMedia>
                         {project.mediaJpeg == null ?
-                          <video className="w-24">
+                          <video style={{width: `${project.width}`}}>
                               <source src={project.mediaMp4} />
                               <source src={project.mediaWebm} />
                           </video>
