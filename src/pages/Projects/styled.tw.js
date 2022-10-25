@@ -21,5 +21,5 @@ export const DescriptionText = styled.div.attrs({
 })``;
 
 export const DescriptionLinks = styled.div.attrs({
-
+  className: "mt-4"
 })``;

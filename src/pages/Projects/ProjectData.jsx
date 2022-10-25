@@ -11,6 +11,8 @@ const ProjectData = [
     mediaWebm: CareAroundWebm,
     mediaJpeg: null,
     width: '88px',
+    repo: 'https://github.com/Laeti-dev/rails-carearound',
+    youtube: 'https://www.youtube.com/watch?v=DJWMEpez0hE&t=1s&ab_channel=LaetitiaTadde%C3%AF',
     title: "CareAround",
     descriptionText: "A mobile application using Optical Character Recognition (Google cloud OCR API) on beauty products and finding a match in a Japanese products database,built using scrapping with Kimurai gem allowing infinite scroll. Scrapped database translated from japanese to english through DEEPL API. Product présentation"
   },
@@ -19,6 +21,8 @@ const ProjectData = [
     mediaWebm: MasterJediWebm,
     mediaJpeg: null,
     width: '344px',
+    repo: 'https://github.com/Laeti-dev/rails-jedi-master-class',
+    youtube: null,
     title: "Master Jedi",
     descriptionText: "A web application build on ruby on rails with an exagerated design and javascript effect."
   },
@@ -28,6 +32,8 @@ const ProjectData = [
     mediaWebm: null,
     mediaJpeg: null,
     width: '344px',
+    repo: 'https://github.com/Laeti-dev/ikusawa-masaki',
+    youtube: null,
     title: "Hairstylist Portfolio",
     descriptionText: "Responsive portfolio for freelance hairstylist. Built using javascript and scss."
   },
@@ -37,6 +43,8 @@ const ProjectData = [
     mediaWebm: null,
     mediaJpeg: LongestWord,
     width: '400px',
+    repo:'https://github.com/Laeti-dev/rails-longest-word-game',
+    youtube: null,
     title: "Longest word Game",
     descriptionText: "Simple rails app display random letters,the user has to build the longest word in english within the letters grid. The word is check through an API to verify its existence in english. Test system with Capybara"
   }

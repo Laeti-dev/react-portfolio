@@ -1,8 +1,8 @@
 import { GlobalStyle, Header1, Underline } from "../../global/styled.tw";
 import { Carousel } from "../../components/Carousel/carousel";
-// import { Slides } from "./Slides"
 import ProjectData from "./ProjectData";
-import { ProjectDescription, ProjectMedia } from "./styled.tw"
+import { DescriptionText, ProjectDescription, ProjectMedia, DescriptionLinks } from "./styled.tw"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export default function Projects() {
   return(
@@ -24,10 +24,17 @@ export default function Projects() {
                     </ProjectMedia>
                     <ProjectDescription>
                         <h2>{project.title}</h2>
-                        <p className="text-justify">{project.descriptionText}</p>
-                        <div className="flex">
-
-                        </div>
+                        <DescriptionText className="text-justify">{project.descriptionText}</DescriptionText>
+                        <DescriptionLinks className="flex">
+                            <a href={project.repo}>
+                                <FontAwesomeIcon icon="fa-brands fa-square-github" size="3x mx-1" className="hover:text-active-color" />
+                            </a>
+                            {project.youtube != null &&
+                            <a href={project.youtube}>
+                                <FontAwesomeIcon icon="fa-brands fa-youtube-square" size="3x mx-1" className="hover:text-active-color" />
+                            </a>
+                          }
+                        </DescriptionLinks>
                     </ProjectDescription>
                     </li>
             )})}

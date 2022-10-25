@@ -10,6 +10,7 @@ import { faLinkedin,
         faBootstrap,
         faGithub,
         faReact,
+        faYoutubeSquare,
 } from "@fortawesome/free-brands-svg-icons";
 
 library.add(
@@ -22,6 +23,7 @@ library.add(
   faBootstrap,
   faGithub,
   faReact,
+  faYoutubeSquare
 );
 
 // <FontAwesomeIcon icon="fa-brands fa-js" />
