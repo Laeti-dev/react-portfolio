@@ -15,7 +15,7 @@ export default function Projects() {
                     <li className="flex justify-around items-center min-w-full" key={`${index}-${project.title}`}>
                       <ProjectMedia>
                         {project.mediaJpeg == null ?
-                          <video style={{width: `${project.width}`}}>
+                          <video loop autoplay style={{width: `${project.width}`}}>
                               <source src={project.mediaMp4} />
                               <source src={project.mediaWebm} />
                           </video>
@@ -23,14 +23,14 @@ export default function Projects() {
                         }
                     </ProjectMedia>
                     <ProjectDescription>
-                        <h2>{project.title}</h2>
+                        <h2 className="font-extrabold text-2xl mb-4">{project.title}</h2>
                         <DescriptionText className="text-justify">{project.descriptionText}</DescriptionText>
                         <DescriptionLinks className="flex">
-                            <a href={project.repo}>
+                            <a href={project.repo} target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon icon="fa-brands fa-square-github" size="3x mx-1" className="hover:text-active-color" />
                             </a>
                             {project.youtube != null &&
-                            <a href={project.youtube}>
+                            <a href={project.youtube} target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon icon="fa-brands fa-youtube-square" size="3x mx-1" className="hover:text-active-color" />
                             </a>
                           }

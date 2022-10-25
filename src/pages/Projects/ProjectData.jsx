@@ -46,7 +46,7 @@ const ProjectData = [
     repo:'https://github.com/Laeti-dev/rails-longest-word-game',
     youtube: null,
     title: "Longest word Game",
-    descriptionText: "Simple rails app display random letters,the user has to build the longest word in english within the letters grid. The word is check through an API to verify its existence in english. Test system with Capybara"
+    descriptionText: "Simple rails app displaying random letters,the user has to build the longest word in english within the letters grid. The word is check through an API to verify its existence in english. Test system with Capybara"
   }
 ]
 

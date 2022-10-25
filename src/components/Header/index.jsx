@@ -26,10 +26,10 @@ export default function Header() {
         </NavMenu>
 
         <NavSocial>
-            <a href="https://www.linkedin.com/in/laetitia-ikusawa/">
+            <a href="https://www.linkedin.com/in/laetitia-ikusawa/" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon="fa-brands fa-linkedin" size="2x" className="hover:text-active-color" />
             </a>
-            <a href="https://github.com/Laeti-dev">
+            <a href="https://github.com/Laeti-dev" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon="fa-brands fa-square-github" size="2x" className="hover:text-active-color" />
             </a>
         </NavSocial>
