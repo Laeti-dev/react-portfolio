@@ -19,7 +19,7 @@ export default function Header() {
               ["About", "/about"],
               ["Skills", "/skills"],
               ["Projects", "/projects"],
-              ["Contact", "/contact"],
+              // ["Contact", "/contact"],
             ].map(([title, url]) => (
                 <Link to={url} className="hover:text-active-color">{title}</Link>
             ))}
