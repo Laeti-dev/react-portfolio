@@ -4,6 +4,10 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
+    screens: {
+      'sm': '360px',
+      'md': '750px'
+    },
     colors: {
       "nav-bar-color": "#494953",
       "background-color": "#EDF2F6",

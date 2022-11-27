@@ -9,9 +9,9 @@ import {
 
 export default function Header() {
   return(
-    <Nav >
+    <Nav>
         <NavLogo>
-          <Link to="/" className="hover:text-active-color font-Madi text-3xl">Laeti-dev</Link>
+          <Link to="/" className="hover:text-active-color font-Madi md:text-3xl sm:text-lg">Laeti-dev</Link>
         </NavLogo>
 
         <NavMenu>
@@ -21,16 +21,16 @@ export default function Header() {
               ["Projects", "/projects"],
               // ["Contact", "/contact"],
             ].map(([title, url]) => (
-                <Link to={url} className="hover:text-active-color">{title}</Link>
+                <Link to={url} className="hover:text-active-color sm:text-sm md:text-xl">{title}</Link>
             ))}
         </NavMenu>
 
         <NavSocial>
             <a href="https://www.linkedin.com/in/laetitia-ikusawa/" target="_blank" rel="noreferrer">
-                <FontAwesomeIcon icon="fa-brands fa-linkedin" size="2x" className="hover:text-active-color" />
+                <FontAwesomeIcon icon="fa-brands fa-linkedin" size="2x" className="hover:text-active-color sm:text-lg md:text-3xl" />
             </a>
             <a href="https://github.com/Laeti-dev" target="_blank" rel="noreferrer">
-                <FontAwesomeIcon icon="fa-brands fa-square-github" size="2x" className="hover:text-active-color" />
+                <FontAwesomeIcon icon="fa-brands fa-square-github" size="2x" className="hover:text-active-color sm:text-lg md:text-3xl" />
             </a>
         </NavSocial>
     </Nav>
