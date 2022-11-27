@@ -10,7 +10,7 @@ export const Nav = tw.nav`
   justify-items-center
   items-center
   bg-nav-bar-color
-  h-16
+  h-10
   text-background-color
   fixed
   font-Inconsolata"

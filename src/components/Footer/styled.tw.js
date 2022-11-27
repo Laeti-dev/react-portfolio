@@ -1,5 +1,17 @@
-import styled from "styled-components"
+import tw from "tailwind-styled-components";
 
-export const FootPage = styled.p.attrs({
-  className: "w-full h-16 fixed bottom-0 mb-auto flex justify-center items-center left-0 bottom-0 bg-nav-bar-color text-background-color"
-})``;
+export const FootPage = tw.footer`
+  w-full
+  h-8
+  fixed
+  bottom-0
+  left-0
+  mb-auto
+
+  flex
+  justify-center
+  items-center
+
+  bg-nav-bar-color
+  text-background-color
+  `;
