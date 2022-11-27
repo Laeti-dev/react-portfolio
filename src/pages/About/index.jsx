@@ -1,5 +1,6 @@
 import { GlobalStyle, Header1, Underline } from "../../global/styled.tw"
 import Profile from "../../utils/img/profile.png"
+import { AboutSection, ProfilePic } from "./styled.tw"
 
 
 export default function About(){
@@ -7,11 +8,9 @@ export default function About(){
     <GlobalStyle>
       <Header1>About</Header1>
       <Underline></Underline>
-      <section className="flex justify-center gap-8 w-4/5">
-        <article className="w-1/2 self-center">
-            <p className="text-justify">
-              Hello !
-            </p>
+      <AboutSection>
+        <article className="lg:w-1/2 self-center">
+            <p> Hello ! </p>
             <br/>
             <p className="text-justify">
               Certifiée développeuse <strong>Fullstack</strong> par
@@ -44,8 +43,8 @@ export default function About(){
             </p> */}
 
         </article>
-            <img src={Profile} alt="Laeti-dev profile" className="w-1/3 rounded-md" />
-      </section>
+        <ProfilePic src={Profile} alt="Laeti-dev profile"/>
+      </AboutSection>
     </GlobalStyle>
   )
 }
