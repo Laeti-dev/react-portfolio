@@ -10,6 +10,7 @@ export const Titles = tw.section`
     lg:gap-8
     lg:items-center
     lg:mx-10
+    lg:mt-10
 `;
 
 export const Roles = tw.article`
