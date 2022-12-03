@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.4e73e366.css",
+    "main.js": "/react-portfolio/static/js/main.7c5f8ec4.js",
+    "static/media/jedi_master.mp4": "/react-portfolio/static/media/jedi_master.49bf395d3a5dbbaa0fdd.mp4",
+    "static/media/jedi_master.webmhd.webm": "/react-portfolio/static/media/jedi_master.webmhd.d32eb061a087ddd6193b.webm",
+    "static/media/ikusawa-portfolio.mp4": "/react-portfolio/static/media/ikusawa-portfolio.a8cfc87e466818077c97.mp4",
+    "static/media/care_around.webmhd.webm": "/react-portfolio/static/media/care_around.webmhd.42cf1c30ea25047b2c90.webm",
+    "static/media/profile.png": "/react-portfolio/static/media/profile.25a46a2cbc3eecd24e54.png",
+    "static/media/care_around.mp4": "/react-portfolio/static/media/care_around.197739d658374dd84e30.mp4",
+    "static/media/longest-word.png": "/react-portfolio/static/media/longest-word.2a99c47b1e7ceadaaa43.png",
+    "static/media/Stickers_MatriceTousA.gif": "/react-portfolio/static/media/Stickers_MatriceTousA.40e743c2858e009147be.gif",
+    "static/media/lewagon.png": "/react-portfolio/static/media/lewagon.f510bb72f6bfc7151c0c.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.4e73e366.css.map": "/react-portfolio/static/css/main.4e73e366.css.map",
+    "main.7c5f8ec4.js.map": "/react-portfolio/static/js/main.7c5f8ec4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e73e366.css",
+    "static/js/main.7c5f8ec4.js"
+  ]
+}
