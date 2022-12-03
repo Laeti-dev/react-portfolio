@@ -1,6 +1,6 @@
 import { GlobalStyle, Header1, Underline } from "../../global/styled.tw"
 import Profile from "../../utils/img/profile.png"
-import { AboutSection, ProfilePic } from "./styled.tw"
+import { AboutSection, AboutDescription, ProfilePic } from "./styled.tw"
 
 
 export default function About(){
@@ -9,7 +9,7 @@ export default function About(){
       <Header1>About</Header1>
       <Underline></Underline>
       <AboutSection>
-        <article className="lg:w-1/2 self-center">
+        <AboutDescription>
             <p> Hello ! </p>
             <br/>
             <p className="text-justify">
@@ -42,7 +42,7 @@ export default function About(){
                 on our society, so I want to be part of it.
             </p> */}
 
-        </article>
+        </AboutDescription>
         <ProfilePic src={Profile} alt="Laeti-dev profile"/>
       </AboutSection>
     </GlobalStyle>
