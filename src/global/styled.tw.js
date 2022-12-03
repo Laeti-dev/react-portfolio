@@ -14,6 +14,7 @@ export const GlobalStyle = tw.article`
   text-nav-bar-color
   font-Inconsolata
   rounded-lg
+  md:text-2xl
 `;
 
 export const Header1 = tw.h1`

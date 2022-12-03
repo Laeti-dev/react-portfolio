@@ -26,9 +26,9 @@ export default function About(){
             <p className="text-justify">
               Dans cette optique, je recherche activement un poste de <strong>
               data analyst en alterance</strong> pour février 2023 en Ile-de-France !
-              <strong>Trois semaines en entreprise, une semaine de formation</strong> qui
-              sera finalisée par une soutenance pour une certification RNCP de cette formation
-              de niveau 6 (Bac+3/4)
+              <strong> Trois semaines en entreprise, une semaine de formation</strong>. Projet
+              complété par une soutenance, pour une certification RNCP de cette formation
+              de niveau 6 (Bac+3/4).
             </p>
             {/* <p className="w-1/2 self-center text-justify">
                 Hi ! I'm Laeti, freelancer

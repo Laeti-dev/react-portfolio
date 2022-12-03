@@ -11,7 +11,10 @@ export const AboutSection = tw.section`
 `;
 
 export const AboutDescription = tw.article`
-  lg:w-1/2 self-center
+  lg:w-1/2
+  lg:text-2xl
+  lg:leading-relaxed
+  self-center
 `
 export const ProfilePic = tw.img`
   rounded-lg
