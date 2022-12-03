@@ -1,5 +1,5 @@
 import { GlobalStyle, Header1, Underline } from "../../global/styled.tw";
-import { Skills } from "./styled.tw";
+import { Skills, SkillsLogo } from "./styled.tw";
 // import Bash from '../../utils/img/devLogos/icons8-bash.svg'
 // import Html from '../../utils/img/devLogos/icons8-html-5-144.svg'
 // import Css from '../../utils/img/devLogos/icons8-css3-144.svg'
@@ -49,7 +49,7 @@ export default function Skill() {
       <Underline></Underline>
       <Skills>
         {devLinks.map((link, index) =>
-        <img src={link} key={`${index}${link}`} alt={devLinks[index]} className="w-28 h-28"/> )}
+        <SkillsLogo src={link} key={`${index}${link}`} alt={devLinks[index]}/> )}
       </Skills>
 
     </GlobalStyle>
