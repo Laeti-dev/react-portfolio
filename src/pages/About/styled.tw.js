@@ -12,20 +12,19 @@ export const AboutSection = tw.section`
 
 export const AboutDescription = tw.article`
   lg:w-1/2
-  lg:text-2xl
+  lg:m-auto
+  lg:text-3xl
   lg:leading-relaxed
   self-center
 `
 export const ProfilePic = tw.img`
   rounded-lg
   sm:w-1/3
-  md:w-1/2
+
+  md:w-1/4
   mt-10
+  m-auto
 
-
-
-
-
-  lg:w-1/3
+  lg:w-1/4
   lg:rounded
 `;
