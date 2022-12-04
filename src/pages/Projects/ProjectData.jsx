@@ -10,11 +10,14 @@ const ProjectData = [
     mediaMp4: CareAroundMp4,
     mediaWebm: CareAroundWebm,
     mediaJpeg: null,
-    width: '88px',
+    width: '100px',
     repo: 'https://github.com/Laeti-dev/rails-carearound',
     youtube: 'https://www.youtube.com/watch?v=DJWMEpez0hE&t=1s&ab_channel=LaetitiaTadde%C3%AF',
     title: "CareAround",
-    descriptionText: "A mobile application using Optical Character Recognition (Google cloud OCR API) on beauty products and finding a match in a Japanese products database,built using scrapping with Kimurai gem allowing infinite scroll. Scrapped database translated from japanese to english through DEEPL API. Product présentation"
+    enText: "A mobile application using Optical Character Recognition on beauty products to find the perfect match in Japan. Check out the demo day video!",
+    frText: "Application mobile utilisant un logiciel de reconnaissance de charactères sur des cosmétiques afin de trouver son équivalent au Japon. Jetez un oeil sur notre pitch!",
+    tools:["https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain-wordmark.svg",
+          ]
   },
   {
     mediaMp4: MasterJediMp4,
@@ -24,7 +27,10 @@ const ProjectData = [
     repo: 'https://github.com/Laeti-dev/rails-jedi-master-class',
     youtube: null,
     title: "Master Jedi",
-    descriptionText: "A web application build on ruby on rails with an exagerated design and javascript effect."
+    enText: "A web application build on ruby on rails with an exagerated design and javascript effect.",
+    frText: "Application web au design exagéré de réservation de cours pour devenir Sith ou Jedi.",
+    tools:["https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain-wordmark.svg",
+            ]
   },
 
   {
@@ -35,18 +41,22 @@ const ProjectData = [
     repo: 'https://github.com/Laeti-dev/ikusawa-masaki',
     youtube: null,
     title: "Hairstylist Portfolio",
-    descriptionText: "Responsive portfolio for freelance hairstylist. Built using javascript and scss."
+    enText: "Responsive portfolio for freelance hairstylist. Built using javascript and scss.",
+    frText: "Portfolio de coiffeur en vanilla javascript et scss",
+    tools:[]
   },
 
   {
     mediaMp4: null,
     mediaWebm: null,
     mediaJpeg: LongestWord,
-    width: '400px',
+    width: '80%',
     repo:'https://github.com/Laeti-dev/rails-longest-word-game',
     youtube: null,
     title: "Longest word Game",
-    descriptionText: "Simple rails app displaying random letters,the user has to build the longest word in english within the letters grid. The word is check through an API to verify its existence in english. Test system with Capybara"
+    enText: "Simple rails app displaying random letters,the user has to build the longest word in english within the letters grid. The word is check through an API to verify its existence in english. Test system with Capybara",
+    frText: "Application sur Rails d'un jeu pour construire le plus long mot connu depuis une sélection de lettres",
+    tools: []
   }
 ]
 
