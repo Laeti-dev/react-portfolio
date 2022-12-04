@@ -19,7 +19,7 @@ export const GlobalStyle = tw.article`
 
 export const Header1 = tw.h1`
   sm:text-3xl
-  md:text-6xl
+  md:text-5xl
 `;
 
 export const Underline = tw.div`
@@ -29,8 +29,5 @@ export const Underline = tw.div`
   rounded-1
   mx-auto
   mt-1
-
-  sm:mb-8
-  md:mb-28
-  lg:mb-12
+  mb-12
 `;

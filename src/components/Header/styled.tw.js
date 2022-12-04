@@ -31,14 +31,15 @@ export const NavLogo = tw.div`
 `;
 
 export const NavMenu = tw.div`
-  space-x-20
+  space-x-6
   col-span-3
   `;
 
 export const NavSocial = tw.div`
-  space-x-20
-  justify-end
+  space-x-7
+  justify-self-center
   mr-3
 
   sm:col-span-2
+
 `;

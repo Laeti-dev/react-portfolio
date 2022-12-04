@@ -1,44 +1,25 @@
-import tw from "tailwind-styled-components";
+import styled from "styled-components";
 
-export const ProjectsList = tw.li`
-  flex
-  justify-around
-  items-center
-  min-w-full
+export const ProjectContainer = styled.div.attrs({
+  className: ""
+})``;
 
-  sm:flex-col
-  sm:w-fit
+export const ProjectWrapper = styled.div.attrs({
+  className: "flex"
+})``;
 
-  lg:flex-row
-`;
+export const ProjectMedia = styled.div.attrs({
+  className:"h-3/4"
+})``;
 
-export const ProjectMedia = tw.div`
-  self-center
+export const ProjectDescription = styled.div.attrs({
+  className: "flex flex-col w-1/2"
+})``;
 
-  md:h-3/4
-  md:mb-6
-`;
+export const DescriptionText = styled.div.attrs({
 
-export const ProjectDescription = tw.div`
-  flex
-  flex-col
-  justify-center
+})``;
 
-  sm:w-3/4
-
-  lg:w-1/2
-  lg:text-3xl
-  lg:leading-relaxed
-  `;
-
-export const DescriptionText = tw.div`
-  text-justify
-`;
-
-export const DescriptionTools = tw.div`
-  flex
-`;
-
-export const DescriptionLinks = tw.div`
-  mt-4
-`;
+export const DescriptionLinks = styled.div.attrs({
+  className: "mt-4"
+})``;

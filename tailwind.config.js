@@ -7,7 +7,7 @@ module.exports = {
     screens: {
       'sm': '360px',
       'md': '750px',
-      'lg': '950px'
+      'lg': '1024px'
     },
     colors: {
       "nav-bar-color": "#494953",

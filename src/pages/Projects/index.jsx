@@ -1,7 +1,7 @@
 import { GlobalStyle, Header1, Underline } from "../../global/styled.tw";
 import { Carousel } from "../../components/Carousel/carousel";
 import ProjectData from "./ProjectData";
-import { ProjectsList, DescriptionText,DescriptionTools, ProjectDescription, ProjectMedia, DescriptionLinks } from "./styled.tw"
+import { DescriptionText, ProjectDescription, ProjectMedia, DescriptionLinks } from "./styled.tw"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export default function Projects() {
@@ -12,32 +12,31 @@ export default function Projects() {
         <Carousel>
             {ProjectData.map((project, index) => {
                 return(
-                    <ProjectsList key={`${index}-${project.title}`}>
+                    <li className="flex justify-around items-center min-w-full" key={`${index}-${project.title}`}>
                       <ProjectMedia>
                         {project.mediaJpeg == null ?
-                          <video loop autoplay style={{width:`${project.width}`}}>
+                          <video loop autoplay style={{width: `${project.width}`}}>
                               <source src={project.mediaMp4} />
                               <source src={project.mediaWebm} />
                           </video>
                         : <img src={project.mediaJpeg} alt={project.title} className="max-w-xs"/>
                         }
-                      </ProjectMedia>
-                      <ProjectDescription>
-                          <h2 className="font-extrabold text-5xl mb-4">{project.title}</h2>
-                          <DescriptionText>{project.frText}</DescriptionText>
-                          <DescriptionTools></DescriptionTools>
-                          <DescriptionLinks>
-                              <a href={project.repo} target="_blank" rel="noreferrer">
-                                  <FontAwesomeIcon icon="fa-brands fa-square-github" size="3x mx-1" className="hover:text-active-color" />
-                              </a>
-                              {project.youtube != null &&
-                              <a href={project.youtube} target="_blank" rel="noreferrer">
-                                  <FontAwesomeIcon icon="fa-brands fa-youtube-square" size="3x mx-1" className="hover:text-active-color" />
-                              </a>
-                            }
-                          </DescriptionLinks>
-                      </ProjectDescription>
-                    </ProjectsList>
+                    </ProjectMedia>
+                    <ProjectDescription>
+                        <h2 className="font-extrabold text-2xl mb-4">{project.title}</h2>
+                        <DescriptionText className="text-justify">{project.descriptionText}</DescriptionText>
+                        <DescriptionLinks className="flex">
+                            <a href={project.repo} target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon="fa-brands fa-square-github" size="3x mx-1" className="hover:text-active-color" />
+                            </a>
+                            {project.youtube != null &&
+                            <a href={project.youtube} target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon="fa-brands fa-youtube-square" size="3x mx-1" className="hover:text-active-color" />
+                            </a>
+                          }
+                        </DescriptionLinks>
+                    </ProjectDescription>
+                    </li>
             )})}
         </Carousel>
     </GlobalStyle>
