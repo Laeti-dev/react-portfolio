@@ -23,7 +23,7 @@ export default function Projects() {
                         }
                       </ProjectMedia>
                       <ProjectDescription>
-                          <h2 className="font-extrabold text-5xl mb-4">{project.title}</h2>
+                          <h2 className="font-extrabold sm:text-xl md:text-3xl lg:text-3xl mb-4">{project.title}</h2>
                           <DescriptionText>{project.frText}</DescriptionText>
                           <DescriptionTools></DescriptionTools>
                           <DescriptionLinks>

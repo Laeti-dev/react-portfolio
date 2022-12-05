@@ -19,8 +19,9 @@ export const GlobalStyle = tw.article`
 `;
 
 export const Header1 = tw.h1`
+  font-extrabold
   sm:text-xl
-  md:text-2xl
+  md:text-3xl
 `;
 
 export const Underline = tw.div`

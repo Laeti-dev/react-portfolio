@@ -12,7 +12,10 @@ export const AboutSection = tw.section`
 
 export const AboutDescription = tw.article`
   sm:text-sm
-  sm:mt-5
+  md:mt-10
+  md:mb-10
+  md:w-1/2
+  md:text-xl
   lg:w-1/2
   lg:text-xl
 

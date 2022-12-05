@@ -1,5 +1,5 @@
 import ProjectData from "./ProjectData";
-import { ProjectContainer, ProjectDescription } from "./styled.tw"
+import { ProjectContainer, ProjectMedia, ProjectDescription } from "./styled.tw"
 
 export function Slides() {
   return(

@@ -7,6 +7,7 @@ export const ProjectsList = tw.li`
   min-w-full
   sm:flex-col
   sm:w-fit
+  md:mt-10
   lg:flex-row
 `;
 
@@ -21,8 +22,8 @@ export const ProjectDescription = tw.div`
   flex-col
   justify-center
   sm:w-3/4
+  md:text-xl
   lg:w-1/2
-  lg:text-3xl
   lg:leading-relaxed
   `;
 
