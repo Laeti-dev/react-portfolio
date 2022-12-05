@@ -1,25 +1,39 @@
-import styled from "styled-components";
+import tw from "tailwind-styled-components";
 
-export const ProjectContainer = styled.div.attrs({
-  className: ""
-})``;
+export const ProjectsList = tw.li`
+  flex
+  justify-around
+  items-center
+  min-w-full
+  sm:flex-col
+  sm:w-fit
+  lg:flex-row
+`;
 
-export const ProjectWrapper = styled.div.attrs({
-  className: "flex"
-})``;
+export const ProjectMedia = tw.div`
+  self-center
+  md:h-3/4
+  md:mb-6
+`;
 
-export const ProjectMedia = styled.div.attrs({
-  className:"h-3/4"
-})``;
+export const ProjectDescription = tw.div`
+  flex
+  flex-col
+  justify-center
+  sm:w-3/4
+  lg:w-1/2
+  lg:text-3xl
+  lg:leading-relaxed
+  `;
 
-export const ProjectDescription = styled.div.attrs({
-  className: "flex flex-col w-1/2"
-})``;
+export const DescriptionText = tw.div`
+  text-justify
+`;
 
-export const DescriptionText = styled.div.attrs({
+export const DescriptionTools = tw.div`
+  flex
+`;
 
-})``;
-
-export const DescriptionLinks = styled.div.attrs({
-  className: "mt-4"
-})``;
+export const DescriptionLinks = tw.div`
+  mt-4
+`;
