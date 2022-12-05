@@ -11,6 +11,8 @@ export const AboutSection = tw.section`
 `;
 
 export const AboutDescription = tw.article`
+  sm:text-sm
+  sm:mt-5
   lg:w-1/2
   lg:text-xl
 
@@ -20,7 +22,7 @@ export const ProfilePic = tw.img`
   rounded-lg
   sm:w-1/3
   md:w-1/4
-  mt-10
+  mt-5
 
   lg:w-1/4
   lg:rounded

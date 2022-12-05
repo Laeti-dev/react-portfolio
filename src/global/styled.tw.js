@@ -14,6 +14,7 @@ export const GlobalStyle = tw.article`
   text-nav-bar-color
   font-Inconsolata
   rounded-lg
+
   md:text-xl
 `;
 
@@ -29,4 +30,5 @@ export const Underline = tw.div`
   rounded-1
   mx-auto
   mt-1
+  sm:mb-2
 `;

@@ -6,6 +6,7 @@ export const Skills = tw.article`
 
   sm:grid-cols-4
   sm:gap-5
+  sm:mt-20
 
   md:grid-cols-4
   md:mt-15
