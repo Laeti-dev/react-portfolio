@@ -1,7 +1,7 @@
 import tw from "tailwind-styled-components";
 
 export const GlobalStyle = tw.article`
-  h-screen
+  min-h-screen
   m-auto
   px-4
 
@@ -14,12 +14,12 @@ export const GlobalStyle = tw.article`
   text-nav-bar-color
   font-Inconsolata
   rounded-lg
-  md:text-2xl
+  md:text-xl
 `;
 
 export const Header1 = tw.h1`
-  sm:text-3xl
-  md:text-5xl
+  sm:text-xl
+  md:text-2xl
 `;
 
 export const Underline = tw.div`
@@ -29,5 +29,4 @@ export const Underline = tw.div`
   rounded-1
   mx-auto
   mt-1
-  mb-12
 `;

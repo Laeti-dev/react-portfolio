@@ -11,7 +11,7 @@ export default function Header() {
   return(
     <Nav>
         <NavLogo>
-          <Link to="/" className="hover:text-active-color font-Madi md:text-5xl sm:text-lg">Laeti-dev</Link>
+          <Link to="/" className="hover:text-active-color font-Madi md:text-3xl sm:text-lg">Laeti-dev</Link>
         </NavLogo>
 
         <NavMenu>
@@ -21,7 +21,7 @@ export default function Header() {
               ["Projects", "/projects"],
               // ["Contact", "/contact"],
             ].map(([title, url]) => (
-                <Link to={url} className="hover:text-active-color sm:text-sm md:text-2xl">{title}</Link>
+                <Link to={url} className="hover:text-active-color sm:text-sm md:text-2xl lg-xl">{title}</Link>
             ))}
         </NavMenu>
 
