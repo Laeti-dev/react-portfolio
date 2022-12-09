@@ -4,6 +4,7 @@ import ProjectData from "./ProjectData";
 import { ProjectsList, DescriptionText,DescriptionTools, ProjectDescription, ProjectMedia, DescriptionLinks } from "./styled.tw"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
+
 export default function Projects() {
   return(
     <GlobalStyle>
@@ -15,10 +16,11 @@ export default function Projects() {
                     <ProjectsList key={`${index}-${project.title}`}>
                       <ProjectMedia>
                         {project.mediaJpeg == null ?
-                          <video loop autoplay style={{width:`${project.width}`}}>
-                              <source src={project.mediaMp4} />
-                              <source src={project.mediaWebm} />
-                          </video>
+                          // <video loop autoplay style={{width:`${project.width}`}}>
+                          //     <source src={project.mediaMp4} />
+                          //     <source src={project.mediaWebm} />
+                          // </video>
+                          <img src={project.mediaGif} alt={project.title} style={{width:`${project.width}`}}/>
                         : <img src={project.mediaJpeg} alt={project.title} className="max-w-xs"/>
                         }
                       </ProjectMedia>

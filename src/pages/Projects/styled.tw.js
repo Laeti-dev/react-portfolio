@@ -9,6 +9,7 @@ export const ProjectsList = tw.li`
   sm:w-fit
   md:mt-10
   lg:flex-row
+  lg:w-1/4
 `;
 
 export const ProjectMedia = tw.div`

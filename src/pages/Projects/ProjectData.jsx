@@ -1,14 +1,17 @@
 import CareAroundMp4 from "../../utils/videos/care_around.mp4"
 import CareAroundWebm from "../../utils/videos/care_around.webmhd.webm"
+import CareAroundGif from "../../utils/img/gif/carearound.gif"
 import MasterJediMp4 from "../../utils/videos/jedi_master.mp4"
 import MasterJediWebm from "../../utils/videos/jedi_master.webmhd.webm"
-import IkusawaPortfolio from "../../utils/videos/ikusawa-portfolio.mp4"
+import MasterJediGif from "../../utils/img/gif/jedi_master.gif"
+import IkusawaPortfolio from "../../utils/projects/hairdresser-portfolio.png"
 import LongestWord from "../../utils/projects/longest-word.png"
 
 const ProjectData = [
   {
     mediaMp4: CareAroundMp4,
     mediaWebm: CareAroundWebm,
+    mediaGif:CareAroundGif,
     mediaJpeg: null,
     width: '100px',
     repo: 'https://github.com/Laeti-dev/rails-carearound',
@@ -22,6 +25,7 @@ const ProjectData = [
   {
     mediaMp4: MasterJediMp4,
     mediaWebm: MasterJediWebm,
+    mediaGif: MasterJediGif,
     mediaJpeg: null,
     width: '344px',
     repo: 'https://github.com/Laeti-dev/rails-jedi-master-class',
@@ -34,9 +38,10 @@ const ProjectData = [
   },
 
   {
-    mediaMp4: IkusawaPortfolio,
+    mediaMp4: null,
     mediaWebm: null,
-    mediaJpeg: null,
+    mediaJpeg: IkusawaPortfolio,
+    mediaGif:null,
     width: '344px',
     repo: 'https://github.com/Laeti-dev/ikusawa-masaki',
     youtube: null,
@@ -49,6 +54,7 @@ const ProjectData = [
   {
     mediaMp4: null,
     mediaWebm: null,
+    mediaGif: null,
     mediaJpeg: LongestWord,
     width: '80%',
     repo:'https://github.com/Laeti-dev/rails-longest-word-game',
