@@ -20,8 +20,8 @@ export default function Projects() {
                           //     <source src={project.mediaMp4} />
                           //     <source src={project.mediaWebm} />
                           // </video>
-                          <img src={project.mediaGif} alt={project.title} style={{width:`${project.width}`}}/>
-                        : <img src={project.mediaJpeg} alt={project.title} className="max-w-xs"/>
+                          <img src={project.mediaGif} alt={project.title} style={{width:`${project.width}`}} className="-z-1"/>
+                        : <img src={project.mediaJpeg} alt={project.title} className="max-w-xs -z-1"/>
                         }
                       </ProjectMedia>
                       <ProjectDescription>

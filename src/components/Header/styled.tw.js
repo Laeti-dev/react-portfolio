@@ -3,6 +3,7 @@ import tw from "tailwind-styled-components";
 
 export const Nav = tw.nav`
   w-full
+  z-10
   sm:h-10
   lg:h-15
 
