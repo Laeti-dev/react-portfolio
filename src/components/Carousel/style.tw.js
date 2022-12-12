@@ -6,6 +6,7 @@ export const CarouselContainer = tw.section`
   sm:w-screen
   lg:w-4/5
   lg:mt-16
+  lg:-ml-5
 `;
 
 export const CarouselWrapper = tw.div`

@@ -2,14 +2,14 @@ import tw from "tailwind-styled-components";
 
 export const ProjectsList = tw.li`
   flex
-  justify-around
   items-center
   min-w-full
   sm:flex-col
   sm:w-fit
-  md:mt-10
+
   lg:mt-1
   lg:flex-row
+  justify-between
   lg:w-1/4
 `;
 
@@ -17,6 +17,7 @@ export const ProjectMedia = tw.div`
   self-center
   md:h-3/4
   md:mb-6
+  lg:-pl-10
 `;
 
 export const ProjectDescription = tw.div`
@@ -27,6 +28,7 @@ export const ProjectDescription = tw.div`
   md:text-xl
   lg:w-1/2
   lg:leading-relaxed
+  lg:max-w-1/2
   `;
 
 export const DescriptionText = tw.div`

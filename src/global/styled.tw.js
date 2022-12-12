@@ -2,6 +2,7 @@ import tw from "tailwind-styled-components";
 
 export const GlobalStyle = tw.article`
   min-h-screen
+  min-w-full
   m-auto
   px-4
 
