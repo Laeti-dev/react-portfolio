@@ -13,7 +13,7 @@ const ProjectData = [
     mediaWebm: CareAroundWebm,
     mediaGif:CareAroundGif,
     mediaJpeg: null,
-    width: '400px',
+    width: '344px',
     repo: 'https://github.com/Laeti-dev/rails-carearound',
     youtube: 'https://www.youtube.com/watch?v=DJWMEpez0hE&t=1s&ab_channel=LaetitiaTadde%C3%AF',
     title: "CareAround",

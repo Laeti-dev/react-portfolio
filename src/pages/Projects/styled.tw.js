@@ -8,6 +8,7 @@ export const ProjectsList = tw.li`
   sm:flex-col
   sm:w-fit
   md:mt-10
+  lg:mt-1
   lg:flex-row
   lg:w-1/4
 `;
