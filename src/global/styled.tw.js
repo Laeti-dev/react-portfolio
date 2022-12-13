@@ -23,6 +23,7 @@ export const Header1 = tw.h1`
   font-extrabold
   sm:text-xl
   md:text-3xl
+  md:mt-10
 `;
 
 export const Underline = tw.div`

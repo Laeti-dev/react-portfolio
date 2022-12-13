@@ -4,20 +4,22 @@ export const ProjectsList = tw.li`
   flex
   items-center
   min-w-full
+
   sm:flex-col
+  sd:justify-center
+  lg:flex-row
+  lg:justify-around
+
   sm:w-fit
 
   lg:mt-1
-  lg:flex-row
-  justify-between
   lg:w-1/4
 `;
 
 export const ProjectMedia = tw.div`
   self-center
-  md:h-3/4
   md:mb-6
-  lg:-pl-10
+  lg:-ml-10
 `;
 
 export const ProjectDescription = tw.div`

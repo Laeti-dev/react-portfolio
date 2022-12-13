@@ -33,7 +33,7 @@ export function Carousel(props) {
         <CarouselWrapper>
             {
               currentIndex > 0 &&
-              <ArrowButtons onClick={prev} className="sm:left-0 lg:-left-40">
+              <ArrowButtons onClick={prev} className="sm:left-0 lg:-left-45">
                   <img src={leftArrow} alt="Left Arrow" />
               </ArrowButtons>
             }

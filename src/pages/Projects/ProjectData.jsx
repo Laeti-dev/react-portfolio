@@ -4,7 +4,7 @@ import CareAroundGif from "../../utils/img/gif/carearound.gif"
 import MasterJediMp4 from "../../utils/videos/jedi_master.mp4"
 import MasterJediWebm from "../../utils/videos/jedi_master.webmhd.webm"
 import MasterJediGif from "../../utils/img/gif/jedi_master.gif"
-import IkusawaPortfolio from "../../utils/projects/hairdresser-portfolio.png"
+import IkusawaGif from "../../utils/img/gif/ikusawa.gif"
 import LongestWord from "../../utils/projects/longest-word.png"
 
 const ProjectData = [
@@ -13,9 +13,10 @@ const ProjectData = [
     mediaWebm: CareAroundWebm,
     mediaGif:CareAroundGif,
     mediaJpeg: null,
-    width: '344px',
+    width: '350px',
     repo: 'https://github.com/Laeti-dev/rails-carearound',
     youtube: 'https://www.youtube.com/watch?v=DJWMEpez0hE&t=1s&ab_channel=LaetitiaTadde%C3%AF',
+    link: null,
     title: "CareAround",
     enText: "A mobile application using Optical Character Recognition on beauty products to find the perfect match in Japan. Check out the demo day video!",
     frText: "Application mobile utilisant un logiciel de reconnaissance de charactères sur des cosmétiques afin de trouver son équivalent au Japon. Jetez un oeil sur notre pitch!",
@@ -30,6 +31,7 @@ const ProjectData = [
     width: '344px',
     repo: 'https://github.com/Laeti-dev/rails-jedi-master-class',
     youtube: null,
+    link: null,
     title: "Master Jedi",
     enText: "A web application build on ruby on rails with an exagerated design and javascript effect.",
     frText: "Application web au design exagéré de réservation de cours pour devenir Sith ou Jedi.",
@@ -40,11 +42,12 @@ const ProjectData = [
   {
     mediaMp4: null,
     mediaWebm: null,
-    mediaJpeg: IkusawaPortfolio,
-    mediaGif:null,
+    mediaJpeg: null,
+    mediaGif:IkusawaGif,
     width: '344px',
     repo: 'https://github.com/Laeti-dev/ikusawa-masaki',
     youtube: null,
+    link: 'https://www.masakiikusawa.com',
     title: "Hairstylist Portfolio",
     enText: "Responsive portfolio for freelance hairstylist. Built using javascript and scss.",
     frText: "Portfolio de coiffeur en vanilla javascript et scss",
