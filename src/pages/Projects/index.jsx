@@ -36,7 +36,8 @@ export default function Projects() {
                               <a href={project.youtube} target="_blank" rel="noreferrer">
                                   <FontAwesomeIcon icon="fa-brands fa-youtube-square" size="3x mx-1" className="hover:text-active-color" />
                               </a>
-                            }{project.link != null &&
+                            }
+                            {project.link != null &&
                               <a href={project.link} target='_blank' rel='noreferrer'>
                                 <FontAwesomeIcon icon="fa-light fa-globe" size='3x mx-1' className="hover:text-active-color" />
                               </a>
