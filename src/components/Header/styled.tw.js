@@ -29,6 +29,11 @@ export const NavLogo = tw.div`
     sm:col-span-2
     sm:justify-self-center
 
+  hover:text-active-color
+    font-Madi
+    md:text-3xl
+    sm:text-lg
+
 `;
 
 export const NavMenu = tw.div`
@@ -42,5 +47,9 @@ export const NavSocial = tw.div`
   mr-3
 
   sm:col-span-2
+
+`;
+
+export const NavLink = tw.a`
 
 `;

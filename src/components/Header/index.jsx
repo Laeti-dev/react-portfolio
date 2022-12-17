@@ -11,12 +11,7 @@ export default function Header() {
   return(
     <Nav>
         <NavLogo>
-          <NavLink to="/"
-                    className="hover:text-active-color font-Madi md:text-3xl sm:text-lg"
-                    // style={({ isActive }) => (
-                    //     {color: isActive ? 'greenyellow' : 'white'
-                    // })}
-                    >
+          <NavLink to="/">
             Laeti-dev
           </NavLink>
         </NavLogo>
@@ -29,7 +24,10 @@ export default function Header() {
               // ["Contact", "/contact"],
             ].map(([title, url]) => (
                 <NavLink to={url}
-                          className="hover:text-active-color sm:text-sm md:text-2xl lg-xl"
+                          // className="hover:text-active-color sm:text-sm md:text-2xl lg-xl"
+                          className={({ isActive }) => (
+                        isActive ? `text-active-color sm:text-sm md:text-2xl lg-xl` : `text-background-color hover:text-active-color sm:text-sm md:text-2xl lg-xl`
+                    )}
                 >
                   {title}
                 </NavLink>

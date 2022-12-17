@@ -25,7 +25,6 @@ const rootElement = document.getElementById('root');
             <Route path='projects' element={<Projects />} />
         </Routes>
         <Footer />
-
     </BrowserRouter>,
     rootElement
 );
