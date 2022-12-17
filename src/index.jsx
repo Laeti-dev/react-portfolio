@@ -1,7 +1,7 @@
 import {render} from 'react-dom';
 import {BrowserRouter,
         Routes,
-        Route,
+        Route
     } from "react-router-dom";
 import "./utils/Styles/main.css";
 import "./utils/fontawesome";
@@ -23,7 +23,6 @@ const rootElement = document.getElementById('root');
             <Route path="about" element={<About />} />
             <Route path="skills" element={<Skills />} />
             <Route path='projects' element={<Projects />} />
-            {/* <Route path="contact" element={<Contact />} /> */}
         </Routes>
         <Footer />
 
