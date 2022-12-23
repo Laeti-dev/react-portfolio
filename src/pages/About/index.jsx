@@ -6,11 +6,11 @@ import { AboutSection, AboutDescription, ProfilePic } from "./styled.tw"
 export default function About(){
   return(
     <GlobalStyle>
-      <Header1>About</Header1>
+      <Header1 id="About">About</Header1>
       <Underline></Underline>
       <AboutSection>
         <AboutDescription>
-            <p> Hello ! </p>
+            <p> Hello !</p>
             <br/>
             <p className="text-justify">
               Certifiée développeuse <strong>Fullstack</strong> par

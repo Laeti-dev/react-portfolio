@@ -24,7 +24,11 @@ const rootElement = document.getElementById('root');
             <Route path="skills" element={<Skills />} />
             <Route path='projects' element={<Projects />} />
         </Routes>
-        <Footer />
+        {/* <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <Footer /> */}
     </BrowserRouter>,
     rootElement
 );

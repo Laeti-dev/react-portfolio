@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import ScrollIntoView from "react-scroll-into-view";
 import {
   Nav,
   NavLogo,
@@ -15,7 +16,8 @@ export default function Header() {
             Laeti-dev
           </NavLink>
         </NavLogo>
-
+{/*
+          <ScrollIntoView selector="#{title}" className="space-x-6 col-span-3"> */}
         <NavMenu>
             {[
               ["About", "/about"],
@@ -29,10 +31,11 @@ export default function Header() {
                         isActive ? `text-active-color sm:text-sm md:text-2xl lg-xl` : `text-background-color hover:text-active-color sm:text-sm md:text-2xl lg-xl`
                     )}
                 >
-                  {title}
+                    {title}
                 </NavLink>
             ))}
         </NavMenu>
+            {/* </ScrollIntoView> */}
 
         <NavSocial>
             <a href="https://www.linkedin.com/in/laetitia-ikusawa/" target="_blank" rel="noreferrer">
