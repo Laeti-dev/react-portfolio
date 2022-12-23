@@ -16,8 +16,8 @@ export default function Header() {
             Laeti-dev
           </NavLink>
         </NavLogo>
-{/*
-          <ScrollIntoView selector="#{title}" className="space-x-6 col-span-3"> */}
+
+          <ScrollIntoView selector="#{title}" className="space-x-6 col-span-3">
         <NavMenu>
             {[
               ["About", "/about"],
@@ -35,7 +35,7 @@ export default function Header() {
                 </NavLink>
             ))}
         </NavMenu>
-            {/* </ScrollIntoView> */}
+            </ScrollIntoView>
 
         <NavSocial>
             <a href="https://www.linkedin.com/in/laetitia-ikusawa/" target="_blank" rel="noreferrer">

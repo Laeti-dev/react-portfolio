@@ -45,7 +45,7 @@ export default function Skill() {
   ]
   return(
     <GlobalStyle>
-      <Header1>Skills</Header1>
+      <Header1 id="Skill">Skills</Header1>
       <Underline></Underline>
       <Skills>
         {devLinks.map((link, index) =>

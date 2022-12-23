@@ -5,7 +5,7 @@ import { GlobalStyle, Header1 } from "../../global/styled.tw";
 
 export default function Home() {
   return (
-    <GlobalStyle>
+    <GlobalStyle id="Home">
         <Header1>Laetitia Ikusawa</Header1>
         <Titles>
           <Roles>

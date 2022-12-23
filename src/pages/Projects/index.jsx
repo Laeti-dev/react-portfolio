@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 export default function Projects() {
   return(
     <GlobalStyle>
-        <Header1>Projects</Header1>
+        <Header1 id="Project">Projects</Header1>
         <Underline></Underline>
         <Carousel>
             {ProjectData.map((project, index) => {
