@@ -20,9 +20,9 @@ export default function Header() {
           <ScrollIntoView selector="#{title}" className="space-x-6 col-span-3">
         <NavMenu>
             {[
-              ["About", "/about"],
-              ["Skills", "/skills"],
-              ["Projects", "/projects"],
+              ["À propos", "/about"],
+              ["Compétences", "/skills"],
+              ["Projets", "/projects"],
               // ["Contact", "/contact"],
             ].map(([title, url]) => (
                 <NavLink to={url}

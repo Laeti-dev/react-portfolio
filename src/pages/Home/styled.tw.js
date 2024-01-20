@@ -5,7 +5,7 @@ export const Titles = tw.section`
     grid
     sm:flex-col
 
-    lg:grid-cols-2
+    lg:grid-cols-3
     lg:justify-between
     lg:gap-8
     lg:items-center
