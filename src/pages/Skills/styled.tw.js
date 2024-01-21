@@ -1,6 +1,6 @@
 import tw from "tailwind-styled-components";
 
-export const Skills = tw.article`
+export const Skills = tw.div`
   grid
   mx-auto
 
