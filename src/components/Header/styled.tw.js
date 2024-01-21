@@ -5,7 +5,7 @@ export const Nav = tw.nav`
   w-full
   z-10
   sm:h-10
-  lg:h-15
+  lg:h-25
 
   grid
   grid-cols-7
@@ -39,6 +39,7 @@ export const NavLogo = tw.div`
 export const NavMenu = tw.div`
   space-x-6
   col-span-3
+
   `;
 
 export const NavSocial = tw.div`

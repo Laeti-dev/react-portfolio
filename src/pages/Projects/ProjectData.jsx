@@ -19,7 +19,7 @@ const ProjectData = [
     link: null,
     title: "CareAround",
     enText: "A mobile application using Optical Character Recognition on beauty products to find the perfect match in Japan. Check out the demo day video!",
-    frText: "Application mobile utilisant un logiciel de reconnaissance de charactères sur des cosmétiques afin de trouver son équivalent au Japon. Jetez un oeil sur notre pitch!",
+    frText: "Application mobile utilisant un logiciel de reconnaissance de caractères sur des cosmétiques afin de trouver son équivalent au Japon. Jetez un oeil sur notre pitch!",
     tools:["https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain-wordmark.svg",
           ]
   },
