@@ -37,6 +37,8 @@ export default function Skill() {
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain-wordmark.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/New_Power_BI_Logo.svg/630px-New_Power_BI_Logo.svg.png",
+    "https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.svg",
   ]
   return(
     <GlobalStyle>
