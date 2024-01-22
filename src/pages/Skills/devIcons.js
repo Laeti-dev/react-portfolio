@@ -1,5 +1,5 @@
 export const TECH_ICONS = {
-  "Fulltstack":  {
+  "Fullstack":  {
       title: "Fullstack",
       tech: [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",

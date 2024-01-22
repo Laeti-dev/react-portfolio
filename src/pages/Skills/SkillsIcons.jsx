@@ -30,7 +30,7 @@ export default function SkillsIcones() {
   if (selectedField) {
     tabContent = (
       <div>
-        <h3>{TECH_ICONS[selectedField].title}</h3>
+        <h3>{selectedField}</h3>
         <Skills>
           {TECH_ICONS[selectedField].tech.map((logoLink, index) => (
             <li>
