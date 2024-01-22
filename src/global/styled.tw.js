@@ -1,6 +1,6 @@
 import tw from "tailwind-styled-components";
 
-export const GlobalStyle = tw.article`
+export const GlobalStyle = tw.section`
   min-h-screen
   min-w-full
   m-auto

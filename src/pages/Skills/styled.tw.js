@@ -1,6 +1,6 @@
 import tw from "tailwind-styled-components";
 
-export const Skills = tw.div`
+export const Skills = tw.ul`
   grid
   mx-auto
 
@@ -24,3 +24,35 @@ sm:h-12
 md:w-28
 md:h-28
 `;
+
+export const TabMenu = tw.menu`
+
+
+md:mx-4
+md:my-0
+md:p-0
+md:flex
+md:gap-2
+
+list-none
+`
+
+export const TabButtonSt = tw.button`
+
+
+md:px-2
+md:py-0
+md:flex
+md:gap-2
+
+border-none
+rounded-md
+bg-transparent
+text-nav-bar-color
+active:text-active-color
+cursor-pointer
+transition-all
+ease-out
+duration-75
+
+`
