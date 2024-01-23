@@ -24,9 +24,10 @@ export const Header1 = tw.h1`
   sm:text-xl
   sm:mt-12
 
+  md:mt-24
   md:text-3xl
 
-  lg:mt-20
+  lg:mt-28
 `;
 
 export const Underline = tw.div`
