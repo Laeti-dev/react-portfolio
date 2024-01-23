@@ -47,9 +47,10 @@ md:gap-2
 
 border-none
 rounded-md
-bg-transparent
 text-nav-bar-color
-active:text-active-color
+bg-transparent
+hover:text-active-color
+
 cursor-pointer
 transition-all
 ease-out

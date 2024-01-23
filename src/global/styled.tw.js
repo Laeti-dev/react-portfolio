@@ -1,10 +1,10 @@
 import tw from "tailwind-styled-components";
 
 export const GlobalStyle = tw.section`
-  min-h-screen
   min-w-full
   m-auto
   px-4
+
 
   flex
   flex-col
@@ -17,13 +17,16 @@ export const GlobalStyle = tw.section`
   rounded-lg
 
   md:text-xl
-`;
+`
 
 export const Header1 = tw.h1`
   font-extrabold
   sm:text-xl
+  sm:mt-12
+
   md:text-3xl
-  md:mt-10
+
+  lg:mt-20
 `;
 
 export const Underline = tw.div`
