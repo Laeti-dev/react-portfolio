@@ -4,7 +4,8 @@ export default function TabButton({ children, onSelect, isSelected }) {
   return (
     <li>
       <TabButtonSt
-        className={isSelected ? 'active:text-active-color' : undefined}
+        className={`${
+          isSelected ? 'text-active-color' : 'text-nav-bar-color'}`}
         onClick={onSelect}
       >
         {children}

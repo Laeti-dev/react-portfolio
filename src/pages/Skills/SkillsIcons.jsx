@@ -14,7 +14,6 @@ export default function SkillsIcones() {
 
   let tabContent = (
     <div>
-      <h3>"Data Science"</h3>
       <Skills>
         {TECH_ICONS["Data Science"].tech.map((logoLink, index) => (
           <SkillsLogo
@@ -30,7 +29,6 @@ export default function SkillsIcones() {
   if (selectedField) {
     tabContent = (
       <div>
-        <h3>{selectedField}</h3>
         <Skills>
           {TECH_ICONS[selectedField].tech.map((logoLink, index) => (
             <li>
