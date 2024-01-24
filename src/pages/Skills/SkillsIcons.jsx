@@ -1,12 +1,13 @@
 import { useState } from "react";
 import TabButton from "./TabButton.jsx";
-import { TECH_ICONS } from "./devIcons.js"
+import Datas from "../../utils/lists/datas.json"
 import { GlobalStyle, Header1, Underline } from "../../global/styled.tw";
 import { Skills, SkillsLogo, TabMenu } from "./styled.tw"
 
 
 export default function SkillsIcones() {
   const [selectedField, setSelectedField] = useState("Data Science");
+  const skills = Datas.skills
 
   function handleSelect(selectedTab) {
     setSelectedField(selectedTab);
@@ -15,11 +16,11 @@ export default function SkillsIcones() {
   let tabContent = (
     <div>
       <Skills>
-        {TECH_ICONS["Data Science"].tech.map((logoLink, index) => (
+        {skills["Data Science"].map((skill) => (
           <SkillsLogo
-            src={logoLink}
-            key={`${index}${logoLink}`}
-            alt={`${TECH_ICONS["Data Science"].title} logo`}
+            src={skill.link}
+            key={`${skill.id}`}
+            alt={`${skill.stack} logo`}
           ></SkillsLogo>
         ))}
       </Skills>
@@ -30,12 +31,12 @@ export default function SkillsIcones() {
     tabContent = (
       <div>
         <Skills>
-          {TECH_ICONS[selectedField].tech.map((logoLink, index) => (
+          {skills[selectedField].map((skill) => (
             <li>
               <SkillsLogo
-                src={logoLink}
-                key={`${index}${logoLink}`}
-                alt={`${TECH_ICONS[selectedField].title} logo`}
+                src={skill.link}
+                key={`${skill.id}`}
+                alt={`${skill.stack}`}
               />
             </li>
           ))}

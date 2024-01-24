@@ -1,0 +1,112 @@
+{
+  "skills" : {
+    "Fullstack": [
+      {
+        "id": 1,
+        "stack": "Javascript",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+      },
+      {
+        "id": 2,
+        "stack": "React",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+      },
+      {
+        "id": 3,
+        "stack": "Ruby",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg"
+      },
+      {
+        "id": 4,
+        "stack": "Ruby on Rails",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg"
+      },
+      {
+        "id": 5,
+        "stack": "Tailwind",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+      },
+      {
+        "id": 6,
+        "stack": "Bootstrap",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
+      }
+    ],
+    "Data science": [
+      {
+        "id": 1,
+        "stack": "Python",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+      },
+      {
+        "id": 2,
+        "stack": "Flask",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg"
+      },
+      {
+        "id": 3,
+        "stack": "Pandas",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg"
+      },
+      {
+        "id": 4,
+        "stack": "Numpy",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg"
+      },
+      {
+        "id": 5,
+        "stack": "Scikit learn",
+        "link": "https://velog.velcdn.com/images/hyeongjun/post/ab925b3c-1f60-4205-8a47-17bf699b174c/image.png"
+      },
+      {
+        "id": 6,
+        "stack": "TensorFlow",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+      },
+      {
+        "id": 7,
+        "stack": "Jupyter",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg"
+      },
+      {
+        "id": 8,
+        "stack": "Microsoft Power BI",
+        "link": "https://www.epcgroup.net/wp-content/uploads/2021/06/Power-BI-Logo.png"
+      },
+      {
+        "id": 9,
+        "stack": "Steamlit",
+        "link": "https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.svg"
+      },
+      {
+        "id": 10,
+        "stack": "Snowflake",
+        "link": "https://logos-world.net/wp-content/uploads/2022/11/Snowflake-Emblem.png"
+      },
+      {
+        "id": 11,
+        "stack": "SQL",
+        "link": "https://cdn-icons-png.flaticon.com/512/4299/4299956.png"
+      }
+    ],
+    "Système": [
+      {"id": 1,
+        "stack": "Git",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
+      },
+      {"id": 1,
+        "stack": "Bash",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"
+      },
+      {"id": 1,
+        "stack": "Ubuntu",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain-wordmark.svg"
+      },
+      {
+        "id": 1,
+        "stack": "Mac os",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg"
+      }
+    ]
+  }
+}
