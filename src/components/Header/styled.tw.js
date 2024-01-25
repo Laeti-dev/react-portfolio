@@ -5,11 +5,11 @@ export const Nav = tw.nav`
   w-full
   z-10
   sm:h-10
-  lg:h-25
+  md:h-16
+  lg:gap-6
 
   grid
   grid-cols-7
-  gap-4
   justify-around
   justify-items-center
   items-center
