@@ -4,9 +4,9 @@ export const Skills = tw.ul`
   mx-auto
   grid
 
-  sm:mt-20
-  sm:grid-cols-4
-  sm:gap-5
+  sm:mt-12
+  sm:grid-cols-3
+  sm:gap-8
 
   md:mt-15
   md:grid-cols-5
@@ -17,7 +17,8 @@ export const Skills = tw.ul`
 `
 
 export const SkillsLogo = tw.img`
-sm:max-w-4
+sm:max-w-12
+sm:h-12
 
 md:w-16
 md:h-16
@@ -28,13 +29,15 @@ lg:h-20
 
 export const TabMenu = tw.menu`
 flex
+gap-2
+list-none
+mx-4
+my-0
+p-0
+
 md:mx-4
 md:my-0
 md:p-0
-md:flex
-md:gap-2
-
-list-none
 `
 
 export const TabButtonSt = tw.button`
