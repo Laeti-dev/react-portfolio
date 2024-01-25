@@ -20,7 +20,7 @@ export default function Header() {
           <ScrollIntoView selector="#{title}" className="space-x-6 col-span-3">
         <NavMenu>
             {[
-              ["À propos", "/about"],
+              ["Intro", "/about"],
               ["Compétences", "/skills"],
               ["Projets", "/projects"],
               // ["Contact", "/contact"],

@@ -4,6 +4,7 @@ import tw from "tailwind-styled-components";
 export const Nav = tw.nav`
   w-full
   z-10
+
   sm:h-10
   md:h-16
   lg:gap-6
@@ -28,28 +29,34 @@ export const NavLogo = tw.div`
 
     sm:col-span-2
     sm:justify-self-center
+    sm:ml-0
 
   hover:text-active-color
     font-Madi
-    md:text-3xl
     sm:text-lg
+    md:text-3xl
 
 `;
 
 export const NavMenu = tw.div`
-  space-x-6
   col-span-3
 
-  `;
+  sm:space-x-3
+  md:space-x-6
+
+  `
 
 export const NavSocial = tw.div`
-  space-x-7
   justify-self-center
   mr-3
 
   sm:col-span-2
+  sm:mr-0
+  sm:space-x-3
 
-`;
+  md:space-x-7
+
+`
 
 export const NavLink = tw.a`
 
