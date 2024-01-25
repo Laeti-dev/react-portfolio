@@ -1,6 +1,6 @@
 {
   "skills" : {
-    "Fullstack": [
+    "fullstack": [
       {
         "id": 1,
         "stack": "Javascript",
@@ -32,7 +32,7 @@
         "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
       }
     ],
-    "Data science": [
+    "data": [
       {
         "id": 1,
         "stack": "Python",
@@ -89,21 +89,21 @@
         "link": "https://cdn-icons-png.flaticon.com/512/4299/4299956.png"
       }
     ],
-    "Système": [
+    "system": [
       {"id": 1,
         "stack": "Git",
         "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
       },
-      {"id": 1,
+      {"id": 2,
         "stack": "Bash",
         "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"
       },
-      {"id": 1,
+      {"id": 3,
         "stack": "Ubuntu",
         "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain-wordmark.svg"
       },
       {
-        "id": 1,
+        "id": 4,
         "stack": "Mac os",
         "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg"
       }

@@ -1,69 +1,55 @@
 import { useState } from "react";
 import TabButton from "./TabButton.jsx";
-import Datas from "../../utils/lists/datas.json"
+import Datas from "../../utils/lists/datas.json";
 import { GlobalStyle, Header1, Underline } from "../../global/styled.tw";
 import { Skills, SkillsLogo, TabMenu } from "./styled.tw"
 
 
 export default function SkillsIcones() {
-  const [selectedField, setSelectedField] = useState("Data Science");
-  const skills = Datas.skills
+  const [selectedField, setSelectedField] = useState("data");
+  const skills = Datas.skills;
 
   function handleSelect(selectedTab) {
     setSelectedField(selectedTab);
   };
 
-  let tabContent = (
+  const tabContent = (
     <div>
       <Skills>
-        {skills["Data Science"].map((skill) => (
-          <SkillsLogo
-            src={skill.link}
-            key={`${skill.id}`}
-            alt={`${skill.stack} logo`}
-          ></SkillsLogo>
-        ))}
+        {skills[selectedField].map((tech) => {
+          return (
+            <SkillsLogo
+            key={tech.id}
+            src={tech.link}
+            alt={tech.stack}
+            />
+          )
+        })}
       </Skills>
     </div>
-  )
+  );
 
-  if (selectedField) {
-    tabContent = (
-      <div>
-        <Skills>
-          {skills[selectedField].map((skill) => (
-            <li>
-              <SkillsLogo
-                src={skill.link}
-                key={`${skill.id}`}
-                alt={`${skill.stack}`}
-              />
-            </li>
-          ))}
-        </Skills>
-      </div>
-    )
-  }
+
   return (
     <GlobalStyle>
       <Header1 id="Skill">Compétences</Header1>
       <Underline></Underline>
       <TabMenu>
         <TabButton
-          isSelected={selectedField === "Data Science"}
-          onSelect={() => handleSelect("Data Science")}
+          isSelected={selectedField === "data"}
+          onSelect={() => handleSelect("data")}
         >
           Data Science
         </TabButton>
         <TabButton
-          isSelected={selectedField === "Fullstack"}
-          onSelect={() => handleSelect("Fullstack")}
+          isSelected={selectedField === "fullstack"}
+          onSelect={() => handleSelect("fullstack")}
         >
           Fullstack
         </TabButton>
         <TabButton
-          isSelected={selectedField === "Système"}
-          onSelect={() => handleSelect("Système")}
+          isSelected={selectedField === "system"}
+          onSelect={() => handleSelect("system")}
         >
           Système
         </TabButton>
