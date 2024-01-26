@@ -9,7 +9,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import SkillsIcones from './pages/Skills/SkillsIcons';
 // import Contact from "./pages/Contact";
-import Projects from "./pages/Projects";
+import Projects from './pages/Projects/Projects';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
