@@ -3,7 +3,7 @@ import { Carousel } from "../../components/Carousel/carousel";
 import { SkillsLogo } from "../Skills/styled.tw";
 import ProjectData from "./ProjectData";
 import Datas from "../../utils/lists/datas.json";
-import { ProjectsList, DescriptionText,DescriptionTools, ProjectDescription, ProjectMedia, DescriptionLinks } from "./styled.tw"
+import { ProjectsList, DescriptionText, DescriptionFooter, DescriptionTools, ProjectDescription, ProjectMedia, DescriptionLinks } from "./styled.tw"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 
@@ -30,28 +30,29 @@ export default function Projects() {
                       <ProjectDescription>
                           <h2 className="font-extrabold sm:text-xl md:text-3xl lg:text-3xl mb-4">{project.title}</h2>
                           <DescriptionText>{project.frText}</DescriptionText>
-                          <DescriptionTools>
-                            {project.tools.map((link, i) => {
-                              return (
-                                <img key={i} src={link} alt="stack" className="w-10"/>
-                              )
-                            })}
-
-                          </DescriptionTools>
-                          <DescriptionLinks>
-                              <a href={project.repo} target="_blank" rel="noreferrer">
-                                  <FontAwesomeIcon icon="fa-brands fa-square-github" size="3x mx-1" className="hover:text-active-color" />
-                              </a>
-                              {project.youtube != null &&
-                              <a href={project.youtube} target="_blank" rel="noreferrer">
-                                  <FontAwesomeIcon icon="fa-brands fa-youtube-square" size="3x mx-1" className="hover:text-active-color" />
-                              </a>
-                            }{project.link != null &&
-                              <a href={project.link} target='_blank' rel='noreferrer'>
-                                <FontAwesomeIcon icon="fa-light fa-globe" size='3x mx-1' className="hover:text-active-color" />
-                              </a>
-                            }
-                          </DescriptionLinks>
+                          <DescriptionFooter>
+                            <DescriptionTools>
+                              {project.tools.map((link, i) => {
+                                return (
+                                  <img key={i} src={link} alt="stack" className="w-12"/>
+                                )
+                              })}
+                            </DescriptionTools>
+                            <DescriptionLinks>
+                                <a href={project.repo} target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon icon="fa-brands fa-square-github" size="3x mx-1" className="hover:text-active-color" />
+                                </a>
+                                {project.youtube != null &&
+                                <a href={project.youtube} target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon icon="fa-brands fa-youtube-square" size="3x mx-1" className="hover:text-active-color" />
+                                </a>
+                              }{project.link != null &&
+                                <a href={project.link} target='_blank' rel='noreferrer'>
+                                  <FontAwesomeIcon icon="fa-light fa-globe" size='3x mx-1' className="hover:text-active-color" />
+                                </a>
+                              }
+                            </DescriptionLinks>
+                          </DescriptionFooter>
                       </ProjectDescription>
                     </ProjectsList>
             )})}

@@ -37,10 +37,18 @@ export const DescriptionText = tw.div`
   text-justify
 `;
 
+export const DescriptionFooter = tw.div`
+  flex
+  justify-between
+  pt-2
+`
+
 export const DescriptionTools = tw.div`
   flex
+  justify-around
+  self-center
 `;
 
 export const DescriptionLinks = tw.div`
-  mt-4
+  self-center
 `;
