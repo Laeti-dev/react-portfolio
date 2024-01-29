@@ -14,6 +14,7 @@ export const ProjectsList = tw.li`
 
   lg:mt-1
   lg:w-1/4
+  lg:px-7
 `;
 
 export const ProjectMedia = tw.div`
@@ -35,12 +36,13 @@ export const ProjectDescription = tw.div`
 
 export const DescriptionText = tw.div`
   text-justify
+  mt-6
 `;
 
 export const DescriptionFooter = tw.div`
   flex
   justify-between
-  pt-2
+  mt-6
 `
 
 export const ProjectTools = tw.div`

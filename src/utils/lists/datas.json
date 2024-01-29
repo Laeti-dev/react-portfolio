@@ -131,10 +131,10 @@
         "enTitle": "CareAround",
         "frTitle": "CareAround",
         "enText": "A mobile application using Optical Character Recognition on beauty products to find the perfect match in Japan. Check out the demo day video!",
-        "frText": "Application mobile utilisant un logiciel de reconnaissance de caractères sur des cosmétiques afin de trouver son équivalent au Japon. Jetez un oeil sur notre pitch!",
+        "frText": "Application mobile utilisant un logiciel de reconnaissance de caractères sur des cosmétiques afin de trouver son équivalent au Japon. Jetez un oeil sur notre pitch !",
         "tools": [
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
-          "https://miro.medium.com/v2/resize:fit:1400/1*tkAiRWvYmAi_RuRhRYgeiQ.jpeg"
+          "https://miro.medium.com/v2/resize:fit:800/1*tkAiRWvYmAi_RuRhRYgeiQ.jpeg"
         ]
       },
       {
@@ -162,7 +162,7 @@
         "enTitle": "Hairstylist Portfolio",
         "frTitle": "Portfolio de coiffeur",
         "enText": "Responsive portfolio for freelance hairstylist. Built using javascript and scss.",
-        "frText": "Portfolio de coiffeur en vanilla javascript et scss",
+        "frText": "Portfolio de coiffeur en vanilla javascript et scss.",
         "tools": [
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg",
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg",
@@ -177,8 +177,8 @@
         "youtube": null,
         "enTitle": "Longest word Game",
         "frTitle": "Jeu : Mot le plus long",
-        "enText": "Simple rails app displaying random letters,the user has to build the longest word in english within the letters grid. The word is check through an API to verify its existence in english. Test system with Capybara",
-        "frText": "Application sur Rails d'un jeu pour construire le plus long mot connu depuis une sélection de lettres",
+        "enText": "Simple rails app displaying random letters,the user has to build the longest word in english within the letters grid. The word is check through an API to verify its existence in english. Test system with Capybara.",
+        "frText": "Application sur Rails d'un jeu pour construire le plus long mot connu depuis une sélection de lettres.",
         "tools": [
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg"
         ]

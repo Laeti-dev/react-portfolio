@@ -3,6 +3,7 @@ import tw from "tailwind-styled-components";
 
 export const CarouselContainer = tw.section`
   flex
+  mt-12
   sm:w-screen
   lg:w-4/5
   lg:mt-16
@@ -26,7 +27,7 @@ export const CarouselContent = tw.ul`
   transition-all
   duration-250
   ease-linear
-  scrollbar-hide"
+  scrollbar-hide
 `;
 
 export const ArrowButtons = tw.button`

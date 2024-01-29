@@ -14,6 +14,7 @@ export const ProjectsList = tw.li`
 
   lg:mt-1
   lg:w-1/4
+
 `;
 
 export const ProjectMedia = tw.div`
