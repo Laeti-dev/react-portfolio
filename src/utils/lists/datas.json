@@ -2,6 +2,16 @@
   "skills" : {
     "fullstack": [
       {
+        "id":7,
+        "stack":"HTML",
+        "link":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg"
+      },
+      {
+        "id":8,
+        "stack":"CSS",
+        "link":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"
+      },
+      {
         "id": 1,
         "stack": "Javascript",
         "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
@@ -24,7 +34,7 @@
       {
         "id": 5,
         "stack": "Tailwind",
-        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
       },
       {
         "id": 6,
@@ -71,7 +81,7 @@
       {
         "id": 8,
         "stack": "Microsoft Power BI",
-        "link": "https://www.epcgroup.net/wp-content/uploads/2021/06/Power-BI-Logo.png"
+        "link": "https://i.rada.vn/data/image/2022/11/08/Microsoft-Power-BI-200.png"
       },
       {
         "id": 9,
@@ -108,5 +118,109 @@
         "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg"
       }
     ]
-  }
+  },
+  "projects": {
+    "fullstack" :[
+      {
+        "mediaGif": "../../assets/img/gifs/carearound.gif",
+        "mediaJpeg": null,
+        "width": "350px",
+        "repo": "https://github.com/Laeti-dev/rails-carearound",
+        "youtube": "https://www.youtube.com/watch?v=DJWMEpez0hE&t=1s&ab_channel=LaetitiaTadde%C3%AF",
+        "link": null,
+        "enTitle": "CareAround",
+        "frTitle": "CareAround",
+        "enText": "A mobile application using Optical Character Recognition on beauty products to find the perfect match in Japan. Check out the demo day video!",
+        "frText": "Application mobile utilisant un logiciel de reconnaissance de caractères sur des cosmétiques afin de trouver son équivalent au Japon. Jetez un oeil sur notre pitch !",
+        "tools": [
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
+        ]
+      },
+      {
+        "mediaJpeg": null,
+        "mediaGif": "../../assets/img/gifs/jedi_master.gif",
+        "width": "344px",
+        "repo": "https://github.com/Laeti-dev/rails-jedi-master-class",
+        "youtube": null,
+        "link": null,
+        "enTitle": "Master Jedi",
+        "frTitle": "Master Jedi",
+        "enText": "A web application build on ruby on rails with an exagerated design and javascript effect.",
+        "frText": "Application web au design exagéré de réservation de cours pour devenir Sith ou Jedi.",
+        "tools": [
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg"
+        ]
+      },
+      {
+        "mediaJpeg": null,
+        "mediaGif": "../../assets/img/gifs/ikusawa.gif",
+        "width": "344px",
+        "repo": "https://github.com/Laeti-dev/ikusawa-masaki",
+        "youtube": null,
+        "link": "https://www.masakiikusawa.com",
+        "enTitle": "Hairstylist Portfolio",
+        "frTitle": "Portfolio de coiffeur",
+        "enText": "Responsive portfolio for freelance hairstylist. Built using javascript and scss.",
+        "frText": "Portfolio de coiffeur en vanilla javascript et scss.",
+        "tools": [
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        ]
+      },
+      {
+        "mediaJpeg": "../../assets/img/longest-word.png",
+        "mediaGif": null,
+        "width": "80%",
+        "repo": "https://github.com/Laeti-dev/rails-longest-word-game",
+        "youtube": null,
+        "enTitle": "Longest word Game",
+        "frTitle": "Jeu : Mot le plus long",
+        "enText": "Simple rails app displaying random letters,the user has to build the longest word in english within the letters grid. The word is check through an API to verify its existence in english. Test system with Capybara.",
+        "frText": "Application sur Rails d'un jeu pour construire le plus long mot connu depuis une sélection de lettres.",
+        "tools": [
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg"
+        ]
+      }
+  ],
+  "data":[
+    {
+      "mediaMp4": null,
+      "mediaWebm": null,
+      "mediaGif": null,
+      "mediaJpeg": "https://github.com/Laeti-dev/project1-text_analysis/blob/master/figures/blah_mask_wordcloud.png?raw=true",
+      "width": "80%",
+      "repo": "https://github.com/Laeti-dev/project1-text_analysis",
+      "youtube": null,
+      "enTitle": "Speeches analysis",
+      "frTitle": "Analyse de discours",
+      "enText": "Comparaison between Greta Tunberg's most famous speeches.",
+      "frText": "Analyse de comparaison entre les deux discours les plus marquant de Greta Tunberg.",
+      "tools": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg"
+      ]
+    },
+    {
+      "mediaMp4": null,
+      "mediaWebm": null,
+      "mediaGif": null,
+      "mediaJpeg": "https://github.com/Laeti-dev/carte_scolaire/blob/master/assets/exemple_normandie.png?raw=true",
+      "width": "80%",
+      "repo": "https://github.com/Laeti-dev/carte_scolaire",
+      "youtube": null,
+      "enTitle": "Middle school map",
+      "frTitle": "La carte scolaire",
+      "enText": "Gouvernment data analysis regarding middle schools organisations and success rate. This project initiated the creation of an interactive map giving to parents the opportunity to get a picture of system around them. ",
+      "frText": "Analyse de données gouvernementales concernant l'organisation des collèges de France et du taux de réussite scolaire par établissement. Cette analyste a abouti à la création d'une carte intéractive localisant les différents collèges et leurs dépendances admisnistratives",
+      "tools": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg"
+      ]
+    }
+  ]
+}
 }

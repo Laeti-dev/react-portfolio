@@ -14,10 +14,13 @@ export const ProjectsList = tw.li`
 
   lg:mt-1
   lg:w-1/4
+
 `;
 
 export const ProjectMedia = tw.div`
   self-center
+  sm:mb-0
+  sm:pb-0
   md:mb-6
   lg:-ml-10
 `;
@@ -27,6 +30,7 @@ export const ProjectDescription = tw.div`
   flex-col
   justify-center
   sm:w-3/4
+  sm:mt-0
   md:text-xl
   lg:w-1/2
   lg:leading-relaxed
@@ -37,10 +41,18 @@ export const DescriptionText = tw.div`
   text-justify
 `;
 
+export const DescriptionFooter = tw.div`
+  flex
+  justify-between
+  pt-2
+`
+
 export const DescriptionTools = tw.div`
   flex
+  justify-around
+  self-center
 `;
 
 export const DescriptionLinks = tw.div`
-  mt-4
+  self-center
 `;

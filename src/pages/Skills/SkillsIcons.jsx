@@ -1,9 +1,9 @@
 import { useState } from "react";
-import TabButton from "./TabButton.jsx";
 import Datas from "../../utils/lists/datas.json";
 import { GlobalStyle, Header1, Underline } from "../../global/styled.tw";
-import { Skills, SkillsLogo, TabMenu } from "./styled.tw"
-
+import { Skills, SkillsLogo } from "./styled.tw.js"
+import TabButton from "../../components/TabButton/TabButton.jsx"
+import { TabMenu } from "../../components/TabButton/styled.tw.js";
 
 export default function SkillsIcones() {
   const [selectedField, setSelectedField] = useState("data");

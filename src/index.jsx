@@ -9,7 +9,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import SkillsIcones from './pages/Skills/SkillsIcons';
 // import Contact from "./pages/Contact";
-import Projects from "./pages/Projects";
+import ProjectsContainer from './pages/Projects/ProjectsContainer';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -22,7 +22,7 @@ const rootElement = document.getElementById('root');
             <Route path="/" element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="skills" element={<SkillsIcones />} />
-            <Route path='projects' element={<Projects />} />
+            <Route path='projects' element={<ProjectsContainer />} />
         </Routes>
         <Footer />
     </BrowserRouter>,
