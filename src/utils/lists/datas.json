@@ -34,7 +34,7 @@
       {
         "id": 5,
         "stack": "Tailwind",
-        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
       },
       {
         "id": 6,
@@ -81,7 +81,7 @@
       {
         "id": 8,
         "stack": "Microsoft Power BI",
-        "link": "https://www.epcgroup.net/wp-content/uploads/2021/06/Power-BI-Logo.png"
+        "link": "https://i.rada.vn/data/image/2022/11/08/Microsoft-Power-BI-200.png"
       },
       {
         "id": 9,
@@ -134,7 +134,7 @@
         "frText": "Application mobile utilisant un logiciel de reconnaissance de caractères sur des cosmétiques afin de trouver son équivalent au Japon. Jetez un oeil sur notre pitch !",
         "tools": [
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
-          "https://miro.medium.com/v2/resize:fit:800/1*tkAiRWvYmAi_RuRhRYgeiQ.jpeg"
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
         ]
       },
       {
@@ -209,7 +209,7 @@
       "mediaGif": null,
       "mediaJpeg": "https://github.com/Laeti-dev/carte_scolaire/blob/master/assets/exemple_normandie.png?raw=true",
       "width": "80%",
-      "repo": "https://github.com/Laeti-dev/project1-text_analysis",
+      "repo": "https://github.com/Laeti-dev/carte_scolaire",
       "youtube": null,
       "enTitle": "Middle school map",
       "frTitle": "La carte scolaire",

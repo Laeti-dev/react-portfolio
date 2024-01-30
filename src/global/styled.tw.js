@@ -3,7 +3,6 @@ import tw from "tailwind-styled-components";
 export const GlobalStyle = tw.section`
   min-w-full
   m-auto
-  h-auto
   px-4
 
 

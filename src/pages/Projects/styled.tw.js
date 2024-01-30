@@ -19,6 +19,8 @@ export const ProjectsList = tw.li`
 
 export const ProjectMedia = tw.div`
   self-center
+  sm:mb-0
+  sm:pb-0
   md:mb-6
   lg:-ml-10
 `;
@@ -28,6 +30,7 @@ export const ProjectDescription = tw.div`
   flex-col
   justify-center
   sm:w-3/4
+  sm:mt-0
   md:text-xl
   lg:w-1/2
   lg:leading-relaxed

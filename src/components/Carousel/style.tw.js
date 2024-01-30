@@ -28,6 +28,7 @@ export const CarouselContent = tw.ul`
   duration-250
   ease-linear
   scrollbar-hide
+  mb-8
 `;
 
 export const ArrowButtons = tw.button`

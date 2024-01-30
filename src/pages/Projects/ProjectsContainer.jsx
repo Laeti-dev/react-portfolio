@@ -7,8 +7,7 @@ import ProjectItem  from "../../components/ProjectItem/ProjectItem";
 import Datas from "../../utils/lists/datas.json";
 
 
-export default function ProjectsCopy() {
-  const fullstack = Datas.projects.fullstack
+export default function ProjectsContainer() {
   const [selectedField, setSelectedField] = useState("data")
   const projects = Datas.projects
 
@@ -38,7 +37,7 @@ export default function ProjectsCopy() {
         {projects[selectedField].map((project, index) => {
         return (
           <ProjectItem key={`${index}-${project.frTitle}`} project={project} />
-      )})}
+        )})}
       </Carousel>
     </GlobalStyle>
   )
