@@ -42,7 +42,7 @@ export const DescriptionText = tw.div`
 export const DescriptionFooter = tw.div`
   flex
   justify-between
-  mt-6
+  my-6
 `
 
 export const ProjectTools = tw.div`

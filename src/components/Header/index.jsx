@@ -24,9 +24,9 @@ export default function Header() {
               ["Compétences", "/skills"],
               ["Projets", "/projects"],
               // ["Contact", "/contact"],
-            ].map(([title, url]) => (
+            ].map(([title, url],index) => (
                 <NavLink to={url}
-                          // className="hover:text-active-color sm:text-sm md:text-2xl lg-xl"
+                          key={index}
                           className={({ isActive }) => (
                         isActive ? `text-active-color sm:text-sm md:text-2xl lg-xl` : `text-background-color hover:text-active-color sm:text-sm md:text-2xl lg-xl`
                     )}
